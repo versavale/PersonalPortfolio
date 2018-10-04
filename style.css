@@ -1,11 +1,59 @@
+body {
+  font-family: 'Lato', sans-serif; }
+
+h1 {
+  font-size: 54px;
+  color: #FFFFFF; }
+
+h2 {
+  font-size: 46px;
+  color: #FFFFFF; }
+
 section {
-  width: 100%;
+  position: relative;
+  width: auto;
   height: 100vh; }
 
-.hero, .projects {
-  background-color: red;
+nav {
+  width: 100%;
+  font-weight: 54px;
+  background: #000000;
+  height: 50px;
+  padding: 1em 0; }
+
+ul {
+  background-color: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  list-style-type: none;
+  margin: 0 auto;
+  vertical-align: middle; }
+
+li {
+  display: inline;
+  justify-self: center;
+  padding-top: 10px; }
+
+li .contact {
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  background-color: #000000; }
+  li .contact:hover {
+    background-color: #DC143C; }
+
+li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 10px 5px; }
+
+.hero {
+  background: linear-gradient(to right, #FF0844, #FF4563);
+  padding: 10% 5%; }
+
+.projects {
+  background: white;
   margin-bottom: 10px; }
 
 .skills, .contact {
-  background-color: blue;
+  background: grey;
   margin-bottom: 10px; }
