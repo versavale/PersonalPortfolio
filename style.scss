@@ -67,28 +67,6 @@ li a.special-link {
   color: $color-white;
 }
 
-.button {
-  margin: 3em 0;
-
-  a{
-    text-decoration: none;
-    color: $color-white;
-    padding: 10px 10px;
-    border: 1px solid $color-white;
-    border-radius: $radius;
-    font-size: $font-reg;
-    margin: 2rem 0;
-
-    &:hover {
-      background-color: $color-red;
-    }
-
-    &:active {
-      background-color: $color-darkred;
-    }
-  }
-}
-
 //ABOUT
 .about {
   text-align: center;
