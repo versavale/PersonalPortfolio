@@ -5,32 +5,54 @@
   <meta charset="UTF-8"></meta>
   <meta name="description" content="VV"></meta>
   <meta name="author" content="Valentina Versari"></meta>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../personalportfolio/style.css" type="text/css"></link>
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script type="text/javascript" src="code.js"></script>
   <body>
-  <section class="hero">
-      <h1>Valentina Versari</h1>
-      <h2>Frontend Web Developer</h2>
-      <h2>based in Berlin, Germany</h2>
-      <div class="learn"><a href="#about">Learn More</a></div>
-  </section>
   <nav id="navbar">
-      <ul>
+      <ul class="layout--five-columns">
         <li>ICON</li>
-        <li></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a class="contact" href="#">Contact</a></li>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a class="special-link" href="#contact">Contact</a></li>
       </ul>
     </nav>
+  <section class="hero" id="hero">
+      <h1>Valentina Versari</h1>
+      <h2>Frontend Web Developer</h2>
+      <h2>Berlin, Germany</h2>
+      <div class="button"><a href="#about">Learn More</a></div>
+  </section>
   <section class="about" id="about">
+    <figure>
+      <img src="assets/placeholder.svg">
+    </figure>
+    <div class="about-me layout--two-columns">
+      <div class="communication">
+        <h2 class="all-red">Marketing Expertise</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="website">
+        <h2 class="all-red">Awesome Websites</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      </div>
+    </div>
+      <div class="about-me">
+      <div class="button-dark"><a href="#">Download my CV</a></div>
+      </div>
+
+
+    </div>
+
   </section>
-  <section class="projects">
+  <section class="projects" id="projects">
   </section>
-  <section class="contact">
+  <section class="contact" id="contact">
   </section>
   <footer class="footer">
   </footer>
