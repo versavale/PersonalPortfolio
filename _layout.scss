@@ -6,17 +6,18 @@ html, body {
   margin: 0;
 }
 
+section {
+  min-height: 100vh;
+  padding-left: $card-padding;
+  padding-right: $card-padding;
+}
+
 h1 {
   font-size: $font-big;
 }
 
 h2 {
   font-size: $font-reg;
-}
-
-section {
-  min-height: 100vh;
-  padding: $card-padding;
 }
 
 //GRID

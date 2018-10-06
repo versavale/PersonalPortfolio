@@ -3,15 +3,16 @@ html, body {
   font-family: 'Lato', sans-serif;
   margin: 0; }
 
+section {
+  min-height: 100vh;
+  padding-left: 5%;
+  padding-right: 5%; }
+
 h1 {
   font-size: 54px; }
 
 h2 {
   font-size: 36px; }
-
-section {
-  min-height: 100vh;
-  padding: 10% 5%; }
 
 .layout--two-columns {
   display: grid;
@@ -67,7 +68,7 @@ section {
 #navbar {
   position: fixed;
   font-weight: 54px;
-  background: transparent;
+  background-color: transparent;
   height: 50px;
   padding: 1em 0;
   width: 100%; }
@@ -108,17 +109,35 @@ li a.special-link {
 
 .hero {
   background: linear-gradient(to right, #FF0844, #f16c82);
-  padding: 10% 5%;
+  padding-top: 5%;
   color: #FFFFFF; }
+  .hero h1 {
+    padding-top: 5%; }
+  .hero img {
+    height: 1.7em;
+    width: 1.7em;
+    display: inline-block;
+    padding-right: 10px; }
+  .hero .loc {
+    display: inline; }
 
 .about {
   text-align: center; }
-  .about img {
-    height: 10em;
-    width: 10em; }
-  .about .about-me {
-    margin: 0 auto;
-    padding-top: 50px; }
+  .about .all-red {
+    margin-top: 10px; }
+
+.me {
+  padding-top: 5%;
+  height: 10em;
+  width: 10em; }
+
+.icon {
+  height: 2.5em;
+  width: 2.5em; }
+
+.about-me {
+  margin: 0 auto;
+  padding-top: 50px; }
 
 .projects {
   background: red; }

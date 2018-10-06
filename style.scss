@@ -7,7 +7,7 @@
 #navbar {
   position: fixed;
   font-weight: $font-big;
-  background: transparent;
+  background-color: transparent;
   height: 50px;
   padding: 1em 0;
   width: 100%;
@@ -64,26 +64,51 @@ li a.special-link {
 
 .hero {
   background: linear-gradient(to right, #FF0844, rgb(241, 108, 130));
-  padding: $card-padding;
+  padding-top: $card-padding;
   color: $color-white;
+  
+  h1 {
+    padding-top: $card-padding;
+  }
+
+  img {
+    height: 1.7em;
+    width: 1.7em;
+    display: inline-block;
+    padding-right: 10px;
+  }
+  
+  .loc {
+    display: inline;
+  }
 }
 
 //ABOUT
 .about {
   text-align: center;
 
-  img {
-    height: 10em;
-    width: 10em;
+  .all-red {
+    margin-top: 10px;
   }
+}
 
+.me {
+  padding-top: $card-padding;
+  height: 10em;
+  width: 10em;
+}
+
+
+.icon {
+  height: 2.5em;
+  width: 2.5em;
+}
 
 .about-me {
   margin: 0 auto;
   padding-top: $padding-top;
 }
 
-}
 //OTHER CONTENT
 .projects {
   background: red;
