@@ -5,8 +5,8 @@ html, body {
 
 section {
   min-height: 100vh;
-  padding-left: 5%;
-  padding-right: 5%; }
+  padding-left: 2em;
+  padding-right: 2em; }
 
 h1 {
   font-size: 54px; }
@@ -39,14 +39,15 @@ h2 {
     border: 2px solid #FFFFFF;
     border-radius: 8px;
     font-size: 24px;
-    margin: 2rem 0; }
+    margin-bottom: 4em;
+    transition: .5s ease; }
     .button a:hover {
       background-color: #DC143C; }
     .button a:active {
       background-color: #9a0e2a; }
 
 .button-dark {
-  margin: 3em 0; }
+  margin-bottom: 3em; }
   .button-dark a {
     text-decoration: none;
     color: #000000;
@@ -54,7 +55,8 @@ h2 {
     border: 2px solid #000000;
     border-radius: 8px;
     font-size: 24px;
-    margin: 2rem 0; }
+    margin-bottom: 4em;
+    transition: .5s ease; }
     .button-dark a:hover {
       background-color: #DC143C;
       color: #FFFFFF; }
@@ -71,7 +73,8 @@ h2 {
   background-color: transparent;
   height: 50px;
   padding: 1em 0;
-  width: 100%; }
+  width: 100%;
+  z-index: 2; }
 
 ul {
   background-color: none;
@@ -98,7 +101,8 @@ li a.special-link {
   border: 2px solid #FFFFFF;
   border-radius: 8px;
   background-color: transparent;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  transition: .5s ease; }
   li a.special-link:hover {
     background-color: #DC143C;
     border: 2px solid #FFFFFF;
@@ -108,11 +112,11 @@ li a.special-link {
     color: #FFFFFF; }
 
 .hero {
-  background: linear-gradient(to right, #FF0844, #f16c82);
-  padding-top: 5%;
+  background: linear-gradient(to right, #FF0844, #F16C82);
+  padding-top: 2em;
   color: #FFFFFF; }
   .hero h1 {
-    padding-top: 5%; }
+    padding-top: 2em; }
   .hero img {
     height: 1.7em;
     width: 1.7em;
@@ -127,7 +131,7 @@ li a.special-link {
     margin-top: 10px; }
 
 .me {
-  padding-top: 5%;
+  padding-top: 2em;
   height: 10em;
   width: 10em; }
 
@@ -140,7 +144,53 @@ li a.special-link {
   padding-top: 50px; }
 
 .projects {
-  background: red; }
+  background: #f2e9e4;
+  padding-bottom: 6em; }
+
+.portfolio {
+  color: #FF0844;
+  padding-top: 2em;
+  text-align: center; }
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 14em;
+  padding-top: 2em; }
+  .portfolio-grid .container {
+    position: relative;
+    justify-self: center; }
+  .portfolio-grid img {
+    justify-self: center;
+    display: block;
+    width: 10em;
+    height: 10em;
+    border-radius: 8px;
+    box-shadow: 6px 6px 20px 0px #929090; }
+  .portfolio-grid .overlay {
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 10em;
+    height: 10em;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #9a0e2a; }
+  .portfolio-grid .container:hover .overlay {
+    opacity: 1; }
+  .portfolio-grid .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center; }
 
 .skills, .contact {
   background: grey; }

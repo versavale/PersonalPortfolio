@@ -1,5 +1,4 @@
 @import "constants";
-
 @import "layout";
 
 //NAV
@@ -11,6 +10,7 @@
   height: 50px;
   padding: 1em 0;
   width: 100%;
+  z-index: 2;
 }
 
 ul {
@@ -46,6 +46,7 @@ li a.special-link {
   border-radius: $radius;
   background-color: transparent;
   color: $color-white;
+  transition: .5s ease;
 
   &:hover {
     background-color: $color-red;
@@ -63,7 +64,7 @@ li a.special-link {
 //HERO
 
 .hero {
-  background: linear-gradient(to right, #FF0844, rgb(241, 108, 130));
+  background: linear-gradient(to right, #FF0844, #F16C82);
   padding-top: $card-padding;
   color: $color-white;
   
@@ -109,11 +110,70 @@ li a.special-link {
   padding-top: $padding-top;
 }
 
-//OTHER CONTENT
+//PROJECTS
 .projects {
-  background: red;
+  background: #f2e9e4;
+  padding-bottom: 6em;
 }
 
+.portfolio {
+  color: $color-pink;
+  padding-top: $card-padding;
+  text-align: center;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 14em;
+  padding-top: $card-padding;
+
+  .container {
+    position: relative;
+    justify-self: center;
+  }
+
+  img {
+    justify-self: center;
+    display: block;
+    width: 10em;
+    height: 10em;
+    border-radius: 8px;
+    box-shadow: $box-shadow;
+  }
+
+  .overlay {
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 10em;
+    height: 10em;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: $color-darkred;
+  }
+
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
+//OTHER CONTENT
 .skills, .contact {
   background: grey;
 }
