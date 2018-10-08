@@ -6,13 +6,22 @@ html, body {
 section {
   min-height: 100vh;
   padding-left: 2em;
-  padding-right: 2em; }
+  padding-right: 2em;
+  padding-bottom: 3em; }
 
 h1 {
   font-size: 54px; }
 
 h2 {
   font-size: 36px; }
+
+.header {
+  color: #FF0844;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold; }
 
 .layout--two-columns {
   display: grid;
@@ -140,17 +149,16 @@ li a.special-link {
   width: 2.5em; }
 
 .about-me {
-  margin: 0 auto;
+  margin: 3em auto;
   padding-top: 50px; }
+
+.double-column {
+  width: 70%;
+  margin: 0 auto; }
 
 .projects {
   background: #f2e9e4;
   padding-bottom: 6em; }
-
-.portfolio {
-  color: #FF0844;
-  padding-top: 2em;
-  text-align: center; }
 
 .portfolio-grid {
   display: grid;
@@ -192,5 +200,31 @@ li a.special-link {
     transform: translate(-50%, -50%);
     text-align: center; }
 
-.skills, .contact {
-  background: grey; }
+.contact {
+  background: #FFFFFF;
+  padding-bottom: 5em; }
+
+.contact-form {
+  background-color: #FF0844; }
+
+.contact-form--form {
+  padding: 3em; }
+  .contact-form--form label {
+    display: block;
+    margin: 1em 0;
+    color: #FFFFFF; }
+  .contact-form--form input, .contact-form--form texarea {
+    border: none; }
+  .contact-form--form input {
+    height: 3em;
+    width: 100%;
+    padding-left: 1em; }
+  .contact-form--form textarea {
+    padding-left: 1em;
+    position: relative;
+    line-height: 20px;
+    resize: none;
+    width: 100%;
+    font-family: 'Lato', sans-serif; }
+  .contact-form--form .button {
+    text-align: right; }

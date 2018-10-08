@@ -106,20 +106,19 @@ li a.special-link {
 }
 
 .about-me {
-  margin: 0 auto;
+  margin: 3em auto;
   padding-top: $padding-top;
+}
+
+.double-column {
+  width: 70%;
+  margin: 0 auto;
 }
 
 //PROJECTS
 .projects {
   background: #f2e9e4;
   padding-bottom: 6em;
-}
-
-.portfolio {
-  color: $color-pink;
-  padding-top: $card-padding;
-  text-align: center;
 }
 
 .portfolio-grid {
@@ -174,6 +173,44 @@ li a.special-link {
 }
 
 //OTHER CONTENT
-.skills, .contact {
-  background: grey;
+.contact {
+  background: $color-white;
+  padding-bottom: 5em;
+}
+
+.contact-form {
+  background-color: #FF0844;
+}
+
+.contact-form--form {
+  padding: 3em;
+
+  label {
+    display: block;
+    margin: 1em 0;
+    color: $color-white;
+  }
+
+  input, texarea {
+    border: none;
+  }
+
+  input {
+    height: 3em;
+    width: 100%;
+    padding-left: 1em;
+  }
+
+  textarea {
+    padding-left: 1em;
+    position: relative; 
+    line-height: 20px;
+    resize: none;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .button {
+    text-align: right;
+  }
 }

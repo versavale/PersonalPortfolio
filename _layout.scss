@@ -10,6 +10,7 @@ section {
   min-height: 100vh;
   padding-left: $card-padding;
   padding-right: $card-padding;
+  padding-bottom: 3em;
 }
 
 h1 {
@@ -19,6 +20,17 @@ h1 {
 h2 {
   font-size: $font-reg;
 }
+
+
+.header {
+  color: $color-pink;
+  padding-top: $card-padding;
+  padding-bottom: $card-padding;
+  text-align: center;
+  font-size: $font-reg;
+  font-weight: bold;
+}
+
 
 //GRID
 .layout--two-columns {

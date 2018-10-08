@@ -28,21 +28,20 @@
       <div class="button"><a href="#about">Learn More</a></div>
   </section>
   <section class="about" id="about">
-    <img>
-      <img class="me" src="assets/placeholder.svg">
-    </img>
+    <p class="header">About Me</p>
+    <img class="me" src="assets/placeholder.svg">
     <div class="about-me layout--two-columns">
       <div class="communication">
         <img class="icon" src="assets/megaphone.svg">
         <h2 class="all-red">Marketing Expertise</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="double-column">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <p class="double-column">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
       <div class="website">
         <img class="icon" src="assets/code.svg">
         <h2 class="all-red">Awesome Websites</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <p class="double-column">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <p class="double-column">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
       </div>
     </div>
       <div class="about-me">
@@ -51,7 +50,7 @@
     </div>
   </section>
   <section class="projects" id="projects">
-    <h1 class="portfolio">My Work</h1>
+    <p class="header">My Work</p>
     <div class="portfolio-grid">
       <a href="https://codepen.io/versavale/pen/GEVKep" target="_blank" class="container">
         <img src="assets/calc.png">
@@ -94,11 +93,39 @@
         <div class="overlay">
           <div class="text">AJAX Quote Generator</div>
         </div>
-      </div>
+      </a>
 
     </div>
   </section>
   <section class="contact" id="contact">
+    <p class="header">Contact Me</p>
+    <div class="layout--two-columns">
+      <div class="contact-form">
+        <form class="contact-form--form">
+            <div class="spaced">
+              <label for="name" id="name-label" class="name">*Your Name</label>
+              <input required type="text" placeholder="Name" id="name" class="long mar">
+            </div>
+            <div class="spaced">
+                <label for="email" id="email-label" class="email">*Your Email</label>
+                <input required type="email" placeholder="Email" id="email" class="long mar">
+            </div>
+            <div class="spaced">
+                <label for="subject" id="subject-label" class="subject">*Subject</label>
+                <input required type="text" placeholder="Subject" id="subject" class="long mar">
+            </div>
+            <div class="spaced">
+              <label for="freetext" class="block spac bo">*Your Message</label>
+              <textarea id="freetext" placeholder="Message" name="basic" rows="3" wrap="hard">
+              </textarea>
+            </div>
+            <div class="button"><a href="">Submit</a></div>
+
+        </form>
+      </div>
+      <div class="socials">
+      </div>
+    </div>
   </section>
   <footer class="footer">
   </footer>
