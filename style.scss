@@ -172,7 +172,7 @@ li a.special-link {
   }
 }
 
-//OTHER CONTENT
+//CONTACT
 .contact {
   background: $color-white;
   padding-bottom: 5em;
@@ -180,6 +180,8 @@ li a.special-link {
 
 .contact-form {
   background-color: #FF0844;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .contact-form--form {
@@ -212,5 +214,26 @@ li a.special-link {
 
   .button {
     text-align: right;
+  }
+}
+
+.socials {
+  display: grid;
+  padding: 3em;
+}
+
+.social-wrap {
+  text-align: center;
+  text-decoration: none;
+  color: $color-black;
+
+  img {
+    height: 3em;
+    width: auto;
+  }
+
+  &:hover {
+    background-color: none;
+    color: red;
   }
 }

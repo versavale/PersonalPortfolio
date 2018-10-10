@@ -38,6 +38,12 @@ h2 {
   grid-template-columns: 1fr 1fr;
 }
 
+.layout--two-columns-auto {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+
 .layout--three-columns {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -52,6 +58,13 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
+
+.layout--two-rows {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+
 
 //repeating components
 
