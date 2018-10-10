@@ -104,6 +104,11 @@ li {
   justify-self: center;
   padding-top: 10px;
   color: #FFFFFF; }
+  li img {
+    height: 1.7em;
+    width: 1.7em;
+    display: inline-block;
+    padding-right: 10px; }
 
 li a {
   text-decoration: none;
@@ -123,10 +128,12 @@ li a.special-link {
   li a.special-link:hover {
     background-color: #DC143C;
     border: 2px solid #FFFFFF;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    transition: .5s ease; }
   li a.special-link:active {
     background-color: #9a0e2a;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    transition: .5s ease; }
 
 .hero {
   background: linear-gradient(to right, #FF0844, #F16C82);

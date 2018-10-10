@@ -25,6 +25,13 @@ li {
   justify-self: center;
   padding-top: 10px;
   color: $color-white;
+
+  img {
+    height: 1.7em;
+    width: 1.7em;
+    display: inline-block;
+    padding-right: 10px;
+  }
 }
 
 li a {
@@ -52,11 +59,13 @@ li a.special-link {
     background-color: $color-red;
     border: 2px solid $color-white;
     color: $color-white;
+    transition: .5s ease;
   }
 
   &:active {
     background-color: $color-darkred;
     color: $color-white;
+    transition: .5s ease;
   }
 }
 
