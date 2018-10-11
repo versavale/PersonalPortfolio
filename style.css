@@ -154,18 +154,12 @@ li a.special-link {
   .about .all-red {
     margin-top: 10px; }
 
-.me {
-  padding-top: 2em;
-  height: 10em;
-  width: 10em; }
-
 .icon {
-  height: 2.5em;
-  width: 2.5em; }
+  height: 5em;
+  width: 5em; }
 
 .about-me {
-  margin: 3em auto;
-  padding-top: 3em; }
+  margin: 4em auto 2em auto; }
 
 .double-column {
   width: 70%;
