@@ -119,3 +119,24 @@ h2 {
 .all-red {
   color: $color-red;
 }
+
+
+//ICONS
+
+.icon--github {
+  background-image: url('assets/github-brands.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon--twitter {
+  background-image: url('assets/twitter-brands.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon--linkedin {
+  background-image: url('assets/linkedin-in-brands.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}

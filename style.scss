@@ -215,6 +215,7 @@ li a.special-link {
 
   .button {
     text-align: right;
+    margin-bottom: 0;
   }
 }
 
@@ -228,13 +229,35 @@ li a.special-link {
   text-decoration: none;
   color: $color-black;
 
-  img {
-    height: 3em;
-    width: auto;
+i {
+  width: 2em;
+  height: 2em;
+  margin: 0 auto;
+  display: inline-block;
   }
+  
+  h4 {
+    margin-top: 0.5em;
+  }
+}
 
-  &:hover {
-    background-color: none;
-    color: red;
-  }
+.social-wrap:hover>.icon--twitter{
+  background-image: url('assets/twitter-hover.svg');
+  transition: .5s ease;
+}
+
+.social-wrap:hover>.icon--github{
+  background-image: url('assets/github-hover.svg');
+  transition: .5s ease;
+}
+
+.social-wrap:hover>.icon--linkedin{
+  background-image: url('assets/linkedin-hover.svg');
+  transition: .5s ease;
+}
+
+
+.social-wrap:hover>h4 {
+  color: #FF0844;
+  transition: .5s ease;
 }

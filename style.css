@@ -84,6 +84,21 @@ h2 {
 .all-red {
   color: #DC143C; }
 
+.icon--github {
+  background-image: url("assets/github-brands.svg");
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.icon--twitter {
+  background-image: url("assets/twitter-brands.svg");
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.icon--linkedin {
+  background-image: url("assets/linkedin-in-brands.svg");
+  background-position: center;
+  background-repeat: no-repeat; }
+
 #navbar {
   position: fixed;
   font-weight: 54px;
@@ -238,7 +253,8 @@ li a.special-link {
     width: 100%;
     font-family: 'Lato', sans-serif; }
   .contact-form--form .button {
-    text-align: right; }
+    text-align: right;
+    margin-bottom: 0; }
 
 .socials {
   display: grid;
@@ -248,9 +264,26 @@ li a.special-link {
   text-align: center;
   text-decoration: none;
   color: #000000; }
-  .social-wrap img {
-    height: 3em;
-    width: auto; }
-  .social-wrap:hover {
-    background-color: none;
-    color: red; }
+  .social-wrap i {
+    width: 2em;
+    height: 2em;
+    margin: 0 auto;
+    display: inline-block; }
+  .social-wrap h4 {
+    margin-top: 0.5em; }
+
+.social-wrap:hover > .icon--twitter {
+  background-image: url("assets/twitter-hover.svg");
+  transition: .5s ease; }
+
+.social-wrap:hover > .icon--github {
+  background-image: url("assets/github-hover.svg");
+  transition: .5s ease; }
+
+.social-wrap:hover > .icon--linkedin {
+  background-image: url("assets/linkedin-hover.svg");
+  transition: .5s ease; }
+
+.social-wrap:hover > h4 {
+  color: #FF0844;
+  transition: .5s ease; }
