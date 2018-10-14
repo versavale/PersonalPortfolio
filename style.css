@@ -31,6 +31,10 @@ h2 {
   display: grid;
   grid-template-columns: auto 1fr; }
 
+.layout--two-columns-large-small {
+  display: grid;
+  grid-template-columns: 2fr 1fr; }
+
 .layout--three-columns {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; }
@@ -46,6 +50,10 @@ h2 {
 .layout--two-rows {
   display: grid;
   grid-template-rows: 1fr 1fr; }
+
+.layout--three-rows {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr; }
 
 .button {
   margin: 3em 0; }
@@ -230,7 +238,7 @@ li a.special-link {
 
 .contact-form {
   background-color: #FF0844;
-  max-width: 500px;
+  width: 80%;
   margin: 0 auto; }
 
 .contact-form--form {

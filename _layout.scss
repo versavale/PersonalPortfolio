@@ -43,6 +43,11 @@ h2 {
   grid-template-columns: auto 1fr;
 }
 
+.layout--two-columns-large-small {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
 
 .layout--three-columns {
   display: grid;
@@ -64,6 +69,11 @@ h2 {
   grid-template-rows: 1fr 1fr;
 }
 
+
+.layout--three-rows {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
 
 
 //repeating components
