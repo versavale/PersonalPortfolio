@@ -126,6 +126,26 @@ h2 {
   }
 }
 
+button {
+  background-color: $color-pink;
+  text-decoration: none;
+  color: $color-white;
+  padding: 10px 10px;
+  border: 2px solid $color-white;
+  border-radius: $radius;
+  font-size: $font-small;
+  margin-bottom: 4em;
+  transition: .5s ease;
+
+  &:hover {
+    background-color: $color-red;
+  }
+
+  &:active {
+    background-color: $color-darkred;
+  }
+}
+
 .all-red {
   color: $color-red;
 }

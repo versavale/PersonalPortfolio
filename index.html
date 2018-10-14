@@ -100,13 +100,16 @@
     <p class="header">Contact Me</p>
       <div class="layout--two-columns-large-small">
         <div class="contact-form">
-          <form class="contact-form--form">
+
+
+
+          <form action="https://formspree.io/versavale@gmail.com" method="POST" class="contact-form--form">
               <div class="spaced">
                 <label for="name" id="name-label" class="name">*Your Name</label>
-                <input required type="text" placeholder="Name" id="name" class="long mar">
+                <input required type="text" name="name" placeholder="Name" id="name" class="long mar">
               </div>
               <div class="spaced">
-                  <label for="email" id="email-label" class="email">*Your Email</label>
+                  <label for="email" name="_replyto" id="email-label" class="email">*Your Email</label>
                   <input required type="email" placeholder="Email" id="email" class="long mar">
               </div>
               <div class="spaced">
@@ -118,8 +121,11 @@
                 <textarea id="freetext" placeholder="Message" name="basic" rows="3" wrap="hard">
                 </textarea>
               </div>
-              <div class="button"><a href="">Submit</a></div>
+              <button class="button" type="submit" value="Send">Submit</button>
           </form>
+
+
+
         </div>
         <div class="socials">
           <div class="layout--three-rows">
