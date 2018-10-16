@@ -74,11 +74,12 @@ li a.special-link {
 
 .hero {
   background: linear-gradient(to right, #FF0844, #F16C82);
-  padding-top: $card-padding;
+  padding-top: 0;
   color: $color-white;
-  
-  h1 {
-    padding-top: $card-padding;
+  padding-bottom: 0;
+
+  .content {
+  padding-left: 2em;
   }
 
   img {

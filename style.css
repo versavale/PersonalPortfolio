@@ -55,6 +55,10 @@ h2 {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr; }
 
+.layout--three-rows-auto {
+  display: grid;
+  grid-template-rows: 1fr auto 1fr; }
+
 .button {
   margin: 3em 0; }
   .button a {
@@ -175,10 +179,11 @@ li a.special-link {
 
 .hero {
   background: linear-gradient(to right, #FF0844, #F16C82);
-  padding-top: 2em;
-  color: #FFFFFF; }
-  .hero h1 {
-    padding-top: 2em; }
+  padding-top: 0;
+  color: #FFFFFF;
+  padding-bottom: 0; }
+  .hero .content {
+    padding-left: 2em; }
   .hero img {
     height: 1.7em;
     width: 1.7em;
