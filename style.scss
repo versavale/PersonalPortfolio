@@ -126,7 +126,7 @@ li a.special-link {
 .portfolio-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 14em;
+  grid-template-rows: 20em;
   padding-top: $card-padding;
 
   .container {
@@ -137,23 +137,27 @@ li a.special-link {
   img {
     justify-self: center;
     display: block;
-    width: 10em;
-    height: 10em;
+    width: 18em;
+    height: 18em;
     border-radius: 8px;
+    box-sizing: border-box;
+    margin: 10px;
     box-shadow: $box-shadow;
   }
 
   .overlay {
-    border-radius: 8px;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    width: 10em;
-    height: 10em;
+    width: 18em;
+    height: 18em;
+    margin: 10px;
     opacity: 0;
-    transition: .5s ease;
+    border-radius: 8px;
+    transition: .3s ease;
+    box-sizing: border-box;
     background-color: $color-darkred;
   }
 
