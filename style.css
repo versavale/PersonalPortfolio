@@ -129,7 +129,7 @@ button {
 #navbar {
   position: fixed;
   font-weight: 54px;
-  background: linear-gradient(to right, #FF0844, #F16C82);
+  background: linear-gradient(to right, #FF0844, #f6a6b4);
   height: 50px;
   padding: 1em 0;
   width: 100%;
@@ -178,12 +178,12 @@ li a.special-link {
     transition: .5s ease; }
 
 .hero {
-  background: linear-gradient(to right, #FF0844, #F16C82);
+  background: linear-gradient(to right, #FF0844, #f6a6b4);
   padding-top: 0;
   color: #FFFFFF;
   padding-bottom: 0; }
   .hero .content {
-    padding-left: 2em; }
+    padding-left: 4em; }
   .hero img {
     height: 1.7em;
     width: 1.7em;
@@ -213,13 +213,13 @@ li a.special-link {
   padding-bottom: 6em; }
 
 .portfolio-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 20em;
-  padding-top: 2em; }
+  display: flex;
+  padding-top: 2em;
+  flex-flow: row wrap;
+  justify-content: flex-end; }
   .portfolio-grid .container {
     position: relative;
-    justify-self: center; }
+    margin: auto; }
   .portfolio-grid img {
     justify-self: center;
     display: block;

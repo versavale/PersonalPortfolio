@@ -6,7 +6,7 @@
 #navbar {
   position: fixed;
   font-weight: $font-big;
-  background: linear-gradient(to right, #FF0844, #F16C82);
+  background: linear-gradient(to right, $color-pink, $color-lightpink);
   height: 50px;
   padding: 1em 0;
   width: 100%;
@@ -73,13 +73,13 @@ li a.special-link {
 //HERO
 
 .hero {
-  background: linear-gradient(to right, #FF0844, #F16C82);
+  background: linear-gradient(to right, $color-pink, $color-lightpink);
   padding-top: 0;
   color: $color-white;
   padding-bottom: 0;
 
   .content {
-  padding-left: 2em;
+  padding-left: 4em;
   }
 
   img {
@@ -124,14 +124,17 @@ li a.special-link {
 }
 
 .portfolio-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 20em;
+  //display: grid;
+  //grid-template-columns: 1fr 1fr 1fr 1fr;
+  //grid-template-rows: 20em;
+  display: flex;
   padding-top: $card-padding;
+  flex-flow: row wrap;
+  justify-content: flex-end;
 
   .container {
     position: relative;
-    justify-self: center;
+    margin: auto;
   }
 
   img {
