@@ -12,6 +12,11 @@
                 "isDefault": true
             },
             "problemMatcher": []
+        },
+        {
+            "type": "gulp",
+            "task": "sass",
+            "problemMatcher": []
         }
     ],
 
