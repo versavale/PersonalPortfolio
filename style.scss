@@ -6,7 +6,7 @@
 #navbar {
   position: fixed;
   font-weight: $font-big;
-  background: linear-gradient(to right, $color-pink, $color-lightpink);
+  background: $background-gradient;
   height: 50px;
   padding: 1em 0;
   width: 100%;
@@ -80,7 +80,7 @@ li a.special-link {
 //HERO
 
 .hero {
-  background: linear-gradient(to right, $color-pink, $color-lightpink);
+  background: $background-gradient;
   padding-top: 0;
   color: $color-white;
   padding-bottom: 0;
@@ -89,6 +89,10 @@ li a.special-link {
 .content-left {
   padding-left: 4em;
   display: grid;
+
+  h1 {
+    margin-top: 4em;
+  }
 
   img {
     height: 1.7em;
@@ -110,7 +114,8 @@ li a.special-link {
   margin: 0;
   background-color: transparent;
   overflow: hidden;
-}
+  width: 100%;
+
 
 canvas {
   position: relative;
@@ -120,13 +125,16 @@ canvas {
   height: 100%;
   overflow: hidden;
 }
+}
 
 //ABOUT
 .about {
   text-align: center;
+  padding-bottom: 6em;
 
   .all-red {
     margin-top: 10px;
+    color: $color-pink;
   }
 }
 
@@ -144,10 +152,46 @@ canvas {
   margin: 0 auto;
 }
 
+//skills 
+
+.my-skills {
+  background: $background-gradient;
+  padding-bottom: 6em;
+
+  p {
+    color: $color-white;
+  }
+
+  .skills-wrapper {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .container {
+    background-color: $color-grey;
+    border-radius: 6px;
+    width: 100%;
+    
+    .skills {
+      border-radius: 6px;
+      text-align: right;
+      padding: 10px;
+      color: white;
+    }
+    
+    .html {width: 90%; background-color: $color-red;}
+    .css {width: 80%; background-color: $color-red;}
+    .js {width: 65%; background-color: $color-red;}
+    .react {width: 40%; background-color: $color-red;}
+    .ruby {width: 20%; background-color: $color-red;}
+  }
+}
+
 //PROJECTS
 .projects {
-  background: #f2e9e4;
+  background: $color-off-white;
   padding-bottom: 6em;
+   margin-top: -38px;
 }
 
 .portfolio-grid {
@@ -158,7 +202,7 @@ canvas {
 
   .container {
     position: relative;
-    margin: 30px auto;
+    margin: 30px auto 50px auto;
   }
 
   img {
@@ -207,7 +251,7 @@ canvas {
 
 //CONTACT
 .contact {
-  background: linear-gradient(to right, $color-pink, $color-lightpink);
+  background: $background-gradient;
 }
 
 /* .contact-form {
@@ -266,7 +310,7 @@ canvas {
 
   a {
     text-decoration: none;
-    color: white;
+    color: $color-white;
   }
 
   i {
@@ -307,10 +351,11 @@ canvas {
 }
 
 .copy {
-  background-color: black;
-  color: white;
+  background-color: $color-black;
+  color: $color-white;
   font-size: 12px;
   text-align: center;
   padding: 1em;
   margin-bottom: 0;
 }
+

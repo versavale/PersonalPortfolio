@@ -1,11 +1,15 @@
 //constants
 
-$color-lightpink: #f6a6b4;
-$color-pink: #FF0844;
+$color-lightpink: #f5c5cd;
+$color-pink: #0844ff;
 $color-red: #DC143C;
 $color-darkred: #9a0e2a;
 $color-white: #FFFFFF;
+$color-off-white: #f2e9e4;
 $color-black: #000000;
+$color-grey: #ddd;
+
+$background-gradient: linear-gradient(to right, $color-pink, $color-lightpink);
 
 $font-extrabig: 70px;
 $font-big: 54px;

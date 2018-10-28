@@ -16,7 +16,7 @@ $(document).ready(function() {
   // avoid nodes spreading
   ANCHOR_LENGTH = 20;
   // highlight radius
-  MOUSE_RADIUS = 200;
+  MOUSE_RADIUS = 400;
 
   circ = 2 * Math.PI;
   nodes = [];

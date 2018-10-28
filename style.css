@@ -19,7 +19,7 @@ h2 {
   font-size: 36px; }
 
 .header {
-  color: #FF0844;
+  color: #0844ff;
   padding-top: 4em;
   padding-bottom: 1em;
   text-align: center;
@@ -97,7 +97,7 @@ h2 {
       color: #FFFFFF; }
 
 button {
-  background-color: #FF0844;
+  background-color: #0844ff;
   text-decoration: none;
   color: #FFFFFF;
   padding: 10px 10px;
@@ -110,9 +110,6 @@ button {
     background-color: #DC143C; }
   button:active {
     background-color: #9a0e2a; }
-
-.all-red {
-  color: #DC143C; }
 
 .icon--github {
   background-image: url("assets/github-brands.svg");
@@ -137,7 +134,7 @@ button {
 #navbar {
   position: fixed;
   font-weight: 54px;
-  background: linear-gradient(to right, #FF0844, #f6a6b4);
+  background: linear-gradient(to right, #0844ff, #f5c5cd);
   height: 50px;
   padding: 1em 0;
   width: 100%;
@@ -192,7 +189,7 @@ li a.special-link {
     transition: .5s ease; }
 
 .hero {
-  background: linear-gradient(to right, #FF0844, #f6a6b4);
+  background: linear-gradient(to right, #0844ff, #f5c5cd);
   padding-top: 0;
   color: #FFFFFF;
   padding-bottom: 0; }
@@ -200,6 +197,8 @@ li a.special-link {
 .content-left {
   padding-left: 4em;
   display: grid; }
+  .content-left h1 {
+    margin-top: 4em; }
   .content-left img {
     height: 1.7em;
     width: 1.7em;
@@ -213,20 +212,22 @@ li a.special-link {
 .content-right {
   margin: 0;
   background-color: transparent;
-  overflow: hidden; }
-
-canvas {
-  position: relative;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  width: 100%; }
+  .content-right canvas {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; }
 
 .about {
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 6em; }
   .about .all-red {
-    margin-top: 10px; }
+    margin-top: 10px;
+    color: #0844ff; }
 
 .icon {
   height: 5em;
@@ -239,9 +240,43 @@ canvas {
   width: 70%;
   margin: 0 auto; }
 
+.my-skills {
+  background: linear-gradient(to right, #0844ff, #f5c5cd);
+  padding-bottom: 6em; }
+  .my-skills p {
+    color: #FFFFFF; }
+  .my-skills .skills-wrapper {
+    width: 60%;
+    margin: 0 auto; }
+  .my-skills .container {
+    background-color: #ddd;
+    border-radius: 6px;
+    width: 100%; }
+    .my-skills .container .skills {
+      border-radius: 6px;
+      text-align: right;
+      padding: 10px;
+      color: white; }
+    .my-skills .container .html {
+      width: 90%;
+      background-color: #DC143C; }
+    .my-skills .container .css {
+      width: 80%;
+      background-color: #DC143C; }
+    .my-skills .container .js {
+      width: 65%;
+      background-color: #DC143C; }
+    .my-skills .container .react {
+      width: 40%;
+      background-color: #DC143C; }
+    .my-skills .container .ruby {
+      width: 20%;
+      background-color: #DC143C; }
+
 .projects {
   background: #f2e9e4;
-  padding-bottom: 6em; }
+  padding-bottom: 6em;
+  margin-top: -38px; }
 
 .portfolio-grid {
   display: flex;
@@ -250,7 +285,7 @@ canvas {
   justify-content: flex-end; }
   .portfolio-grid .container {
     position: relative;
-    margin: 30px auto; }
+    margin: 30px auto 50px auto; }
   .portfolio-grid img {
     justify-self: center;
     display: block;
@@ -288,7 +323,7 @@ canvas {
     text-align: center; }
 
 .contact {
-  background: linear-gradient(to right, #FF0844, #f6a6b4); }
+  background: linear-gradient(to right, #0844ff, #f5c5cd); }
 
 /* .contact-form {
   background-color: #FF0844;
@@ -343,7 +378,7 @@ canvas {
   text-decoration: none; }
   .social-container a {
     text-decoration: none;
-    color: white; }
+    color: #FFFFFF; }
   .social-container i {
     width: 2em;
     height: 2em;
@@ -373,8 +408,8 @@ canvas {
   transition: .5s ease; }
 
 .copy {
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #FFFFFF;
   font-size: 12px;
   text-align: center;
   padding: 1em;
