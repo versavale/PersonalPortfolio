@@ -359,3 +359,58 @@ canvas {
   margin-bottom: 0;
 }
 
+
+
+@media only screen and (min-width: 401px) and (max-width: 1000px) {
+
+  body {
+    width: 100%;
+  }
+
+  .hero {
+    background-color: red;
+  }
+
+  .content-right {
+    display: none;
+  }
+}
+
+
+
+@media only screen and (max-width: 400px) {
+
+
+  .hero {
+    background-color: yellow;
+
+    .content-left {
+      padding-left: 20px;
+    }
+  }
+
+  .about {
+
+    .layout--two-columns {
+      display: block;
+    }
+
+    .communication, .website {
+      display: block;
+      width: 100%;
+    }
+
+    .communication {
+      margin-top: 20px;
+    }
+  }
+  
+  section {
+    padding-left: 10px;
+  }
+
+
+  .socials {
+    display: block;
+  }
+}
