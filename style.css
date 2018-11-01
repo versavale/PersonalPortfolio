@@ -249,6 +249,8 @@ li a.special-link {
   padding-bottom: 6em; }
   .my-skills p {
     color: #FFFFFF; }
+  .my-skills p.special {
+    font-weight: bold; }
   .my-skills .skills-wrapper {
     width: 60%;
     margin: 0 auto; }
@@ -275,6 +277,9 @@ li a.special-link {
       background-color: #DC143C; }
     .my-skills .container .ruby {
       width: 20%;
+      background-color: #DC143C; }
+    .my-skills .container .learning {
+      width: 100%;
       background-color: #DC143C; }
 
 .projects {

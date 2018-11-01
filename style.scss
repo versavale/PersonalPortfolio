@@ -162,6 +162,11 @@ canvas {
     color: $color-white;
   }
 
+  
+  p.special {
+    font-weight: bold;
+  }
+
   .skills-wrapper {
     width: 60%;
     margin: 0 auto;
@@ -184,6 +189,7 @@ canvas {
     .js {width: 65%; background-color: $color-red;}
     .react {width: 40%; background-color: $color-red;}
     .ruby {width: 20%; background-color: $color-red;}
+    .learning {width: 100%; background-color: $color-red;}
   }
 }
 
