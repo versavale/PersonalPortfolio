@@ -20,12 +20,14 @@ h2 {
   font-size: 36px; }
 
 .header {
-  color: #0844ff;
   padding-top: 4em;
   padding-bottom: 1em;
   text-align: center;
   font-size: 36px;
   font-weight: bold; }
+
+.header-color {
+  color: #0844ff; }
 
 .layout--two-columns {
   display: grid;
@@ -50,6 +52,10 @@ h2 {
 .layout--five-columns {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
+
+.layout--six-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr  1fr; }
 
 .layout--two-rows {
   display: grid;
@@ -83,9 +89,10 @@ h2 {
   margin-bottom: 3em; }
   .button-dark a {
     text-decoration: none;
-    color: #000000;
+    color: #DC143C;
+    background-color: #FFFFFF;
     padding: 10px 10px;
-    border: 2px solid #000000;
+    border: 2px solid #DC143C;
     border-radius: 8px;
     font-size: 24px;
     margin-bottom: 4em;
@@ -228,7 +235,7 @@ li a.special-link {
 
 .about {
   text-align: center;
-  padding-bottom: 6em; }
+  padding-bottom: 4em; }
   .about .all-red {
     margin-top: 10px;
     color: #0844ff; }
@@ -237,8 +244,8 @@ li a.special-link {
   height: 5em;
   width: 5em; }
 
-.download {
-  margin: 4em auto 2em auto; }
+.button {
+  padding-top: 2em; }
 
 .double-column {
   width: 70%;
@@ -290,6 +297,8 @@ li a.special-link {
   margin-top: -38px; }
 
 .portfolio-grid {
+  width: 80%;
+  margin: 0 auto;
   display: flex;
   padding-top: 1em;
   flex-flow: row wrap;
@@ -300,8 +309,8 @@ li a.special-link {
   .portfolio-grid img {
     justify-self: center;
     display: block;
-    width: 18em;
-    height: 18em;
+    width: 12em;
+    height: 12em;
     border-radius: 8px;
     box-sizing: border-box;
     margin: 20px;
@@ -312,8 +321,8 @@ li a.special-link {
     bottom: 0;
     left: 0;
     right: 0;
-    width: 18em;
-    height: 18em;
+    width: 12em;
+    height: 12em;
     margin: 20px;
     opacity: 0;
     border-radius: 8px;
@@ -333,7 +342,7 @@ li a.special-link {
     transform: translate(-50%, -50%);
     text-align: center; }
 
-.contact {
+footer {
   background: linear-gradient(to right, #0844ff, #f5c5cd); }
 
 .socials {
@@ -407,8 +416,6 @@ li a.special-link {
     width: 100%; }
   .about .communication {
     margin-top: 20px; }
-  section {
-    padding-left: 10px; }
   .overlay {
     display: none; }
   .socials {

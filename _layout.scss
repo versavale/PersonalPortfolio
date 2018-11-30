@@ -30,12 +30,15 @@ h2 {
 
 
 .header {
-  color: $color-pink;
   padding-top: $card-padding-double;
   padding-bottom: $card-padding;
   text-align: center;
   font-size: $font-reg;
   font-weight: bold;
+}
+
+.header-color {
+  color: $color-pink;
 }
 
 
@@ -69,6 +72,11 @@ h2 {
 .layout--five-columns {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.layout--six-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr  1fr;
 }
 
 .layout--two-rows {
@@ -117,9 +125,10 @@ h2 {
 
   a{
     text-decoration: none;
-    color: $color-black;
+    color: $color-red;
+    background-color: $color-white;
     padding: 10px 10px;
-    border: 2px solid $color-black;
+    border: 2px solid $color-red;
     border-radius: $radius;
     font-size: $font-small;
     margin-bottom: 4em;

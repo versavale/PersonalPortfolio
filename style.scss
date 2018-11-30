@@ -135,7 +135,7 @@ canvas {
 //ABOUT
 .about {
   text-align: center;
-  padding-bottom: 6em;
+  padding-bottom: 4em;
 
   .all-red {
     margin-top: 10px;
@@ -148,8 +148,8 @@ canvas {
   width: 5em;
 }
 
-.download {
-  margin: 4em auto 2em auto;
+.button {
+  padding-top: 2em;
 }
 
 .double-column {
@@ -203,10 +203,12 @@ canvas {
 .projects {
   background: $color-off-white;
   padding-bottom: 6em;
-   margin-top: -38px;
+  margin-top: -38px;
 }
 
 .portfolio-grid {
+  width: 80%;
+  margin: 0 auto;
   display: flex;
   padding-top: $card-padding;
   flex-flow: row wrap;
@@ -220,8 +222,8 @@ canvas {
   img {
     justify-self: center;
     display: block;
-    width: 18em;
-    height: 18em;
+    width: 12em;
+    height: 12em;
     border-radius: 8px;
     box-sizing: border-box;
     margin: 20px;
@@ -234,8 +236,8 @@ canvas {
     bottom: 0;
     left: 0;
     right: 0;
-    width: 18em;
-    height: 18em;
+    width: 12em;
+    height: 12em;
     margin: 20px;
     opacity: 0;
     border-radius: 8px;
@@ -262,7 +264,7 @@ canvas {
 }
 
 //CONTACT
-.contact {
+footer {
   background: $background-gradient;
 }
 
@@ -376,11 +378,6 @@ canvas {
       margin-top: 20px;
     }
   }
-  
-  section {
-    padding-left: 10px;
-  }
-
 
   .overlay {
     display: none;
