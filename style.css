@@ -234,6 +234,7 @@ li a.special-link {
     overflow: hidden; }
 
 .about {
+  margin-top: -38px;
   text-align: center;
   padding-bottom: 4em; }
   .about .all-red {
