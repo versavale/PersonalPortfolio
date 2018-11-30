@@ -134,6 +134,8 @@ canvas {
 
 //ABOUT
 .about {
+  width: 60%;
+  margin: 0 auto;
   margin-top: -38px;
   text-align: center;
   padding-bottom: 4em;
@@ -150,12 +152,13 @@ canvas {
 }
 
 .button {
-  padding-top: 2em;
+  padding-top: 3em;
 }
 
 .double-column {
   width: 70%;
   margin: 0 auto;
+  text-align: left;
 }
 
 //skills 
@@ -189,13 +192,20 @@ canvas {
       padding: 10px;
       color: white;
     }
+
+    .skills--special {
+      border-radius: 6px;
+      text-align: left;
+      padding: 10px;
+      color: black;
+    }
     
     .html {width: 90%; background-color: $color-red;}
     .css {width: 80%; background-color: $color-red;}
     .git {width: 75%; background-color: $color-red;}
     .js {width: 65%; background-color: $color-red;}
-    .react {width: 40%; background-color: $color-red;}
-    .ruby {width: 15%; background-color: $color-red;}
+    .react {background-color: $color-lightpink;}
+    .ruby {background-color: $color-lightpink;}
     .learning {background-color: $color-red;}
   }
 }
@@ -208,7 +218,7 @@ canvas {
 }
 
 .portfolio-grid {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
   display: flex;
   padding-top: $card-padding;
@@ -223,8 +233,8 @@ canvas {
   img {
     justify-self: center;
     display: block;
-    width: 12em;
-    height: 12em;
+    width: 10em;
+    height: 10em;
     border-radius: 8px;
     box-sizing: border-box;
     margin: 20px;
@@ -237,8 +247,8 @@ canvas {
     bottom: 0;
     left: 0;
     right: 0;
-    width: 12em;
-    height: 12em;
+    width: 10em;
+    height: 10em;
     margin: 20px;
     opacity: 0;
     border-radius: 8px;
