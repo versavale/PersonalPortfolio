@@ -403,24 +403,63 @@ footer {
 @media only screen and (min-width: 401px) and (max-width: 1000px) {
   body {
     width: 100%; }
+  .nav-content {
+    width: 80%;
+    margin: 0 auto; }
+  .hero-content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center; }
+  .skills-wrapper {
+    width: 80%;
+    margin: 0 auto; }
   .hero {
     background-color: red; }
-  .content-right {
-    display: none; } }
+  .about {
+    width: 80%;
+    margin: 0 auto; }
+  .portfolio-grid {
+    width: 80%;
+    margin: 0 auto; }
+  .socials {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-bottom: 0;
+    padding-top: 2em; } }
 
 @media only screen and (max-width: 400px) {
   .hero {
     background-color: yellow; }
     .hero .content-left {
       padding-left: 20px; }
-  .about .layout--two-columns {
-    display: block; }
-  .about .communication, .about .website {
-    display: block;
-    width: 100%; }
-  .about .communication {
-    margin-top: 20px; }
+  .nav-content {
+    width: 90%;
+    margin: 0 auto; }
+  .hero-content {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center; }
+  .skills-wrapper {
+    width: 90%;
+    margin: 0 auto; }
+  .about {
+    width: 90%;
+    margin: 0 auto; }
+    .about .layout--two-columns {
+      display: block; }
+    .about .communication, .about .website {
+      display: block;
+      width: 100%; }
+    .about .communication {
+      margin-top: 20px; }
+    .about .portfolio-grid {
+      width: 90%;
+      margin: 0 auto; }
   .overlay {
     display: none; }
   .socials {
-    display: block; } }
+    display: block;
+    width: 60%;
+    margin: 0 auto; } }
