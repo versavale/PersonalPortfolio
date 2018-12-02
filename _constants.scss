@@ -23,3 +23,17 @@ $radius: 8px;
 $padding-top: 3em;
 
 $box-shadow: 6px 6px 20px 0px #929090;
+
+
+
+@keyframes pulsate {
+    0% { 
+        opacity: 0;
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0;
+    }
+}

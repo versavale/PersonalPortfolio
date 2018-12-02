@@ -116,8 +116,8 @@ li a.special-link {
     padding-right: 10px;
   }
 
-  .loc {
-    display: inline;
+  .loc__text {
+      display: inline;
   }
 
   .button {
@@ -229,7 +229,7 @@ li a.special-link {
     display: block;
     width: 10em;
     height: 10em;
-    border-radius: 8px;
+    border-radius: 3px;
     box-sizing: border-box;
     margin: 20px;
     box-shadow: $box-shadow;
@@ -245,7 +245,7 @@ li a.special-link {
     height: 10em;
     margin: 20px;
     opacity: 0;
-    border-radius: 8px;
+    border-radius: 3px;
     transition: .3s ease;
     box-sizing: border-box;
     background-color: $color-darkred;

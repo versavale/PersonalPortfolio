@@ -22,10 +22,20 @@ section {
 
 h1 {
   font-size: $font-big;
+  font-weight: 900;
 }
 
 h2 {
   font-size: $font-reg;
+}
+
+
+.anim {
+  animation: pulsate 1.5s;
+  animation-iteration-count: infinite; 
+  -webkit-animation: pulsate 1.5s;
+  -webkit-animation-iteration-count: infinite; 
+  opacity: 0.5;
 }
 
 
@@ -34,7 +44,7 @@ h2 {
   padding-bottom: $card-padding;
   text-align: center;
   font-size: $font-reg;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .header-color {

@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Personal Portfolio</title>
+  <title>Valentina Versari | Web Developer</title>
   <meta charset="UTF-8"></meta>
-  <meta name="description" content="VV"></meta>
+  <meta name="description" content="Personal Website of Valentina Versari, Frontend Web Developer"></meta>
   <meta name="author" content="Valentina Versari"></meta>
+  <meta name="robots" content="index, follow" />
+  <meta name="og:title" content="Valentina Versari | Frontend Developer"/>
+  <meta name="og:type" content="website"/>
+  <meta name="og:url" content="http://www.valentinaversari.com"/>
+  <meta name="og:image" content="http://www.valentinaversari.com/assets/preview.png"/>
+  <meta name="og:site_name" content="Valentina Versari | Frontend Developer"/>
+  <meta name="og:description" content="Frontend Developer creating high quality websites."/>
+
+  <meta name="twitter:card" content="Valentina Versari | Frontend Developer">
+  <meta name="twitter:site" content="@valeversa">
+  <meta name="twitter:title" content="Valentina Versari | Frontend Developer">
+  <meta name="twitter:description" content="Frontend Developer creating high quality websites.">
+  <meta name="twitter:creator" content="@valeversa">
+  <meta name="twitter:image" content="http://www.valentinaversari.com/assets/preview.png">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css" type="text/css"></link>
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script type="text/javascript" src="code.js"></script>
@@ -37,10 +52,10 @@
         <div class="row2">
         <h1>Valentina Versari</h1>
         <h2>Frontend Web Developer</h2>
-        <img src="assets/map.svg">
-          <h2 class="loc">Berlin, Germany</h2>
+        <img class="loc__icon" src="assets/map.svg" alt="pin">
+          <h2 class="loc__text">Berlin, Germany</h2>
         </div>
-        <div class="button"><a href="#about">Learn More</a></div>
+        <div class="button anim"><a href="#about">Learn More</a></div>
     </div>
   </div>
   </section>
@@ -49,24 +64,24 @@
     <p class="header header-color">About Me</p>
     <div class="layout--two-columns">
       <div class="website">
-          <img class="icon" src="assets/code.svg">
+          <img class="icon" src="assets/code.svg" alt="Code icon">
           <h2 class="all-red">Passion for code</h2>
-          <p class="double-column">I'm a self-taught Frontend Web eveloper and a learner by heart.</p>
+          <p class="double-column">I'm a Frontend Web eveloper and a learner by heart.</p>
           <p class="double-column">Since early 2017 I've been learning front-end development and perfecting my skills. Since early 2017 I've been learning front-end development and perfecting my skills. I'm currently employed as Junior Frontend Web Developer at <a href="www.mobilejob.com">Mobilejob.com.</a></p>
         </div>
       <div class="communication">
-        <img class="icon" src="assets/megaphone.svg">
+        <img class="icon" src="assets/megaphone.svg" alt="Megaphone">
         <h2 class="all-red">Marketing Expertise</h2>
         <p class="double-column">I have a Master's degree in Communications Sciences and I've worked in marketing-communications for over eight years.</p>
         <p class="double-column">SEO, Online Marketing, Community Management: those are just some of the skills I developed in my career in marketing. I'm confident I will be able to apply those skills in my dev career a well!</p>
       </div>
     </div>
-    <div class="button button-dark"><a href='https://www.linkedin.com/in/valentinaversari'  target=”_blank” >See my CV on LinkedIn</a></div>
+    <div class="button button-dark"><a href='https://www.linkedin.com/in/valentinaversari'  target=”_blank” >See my full CV on LinkedIn</a></div>
   </section>
 
 
   <section class="my-skills" id="skills">
-    <p class="header">My Skills</p>
+    <p class="header">Skills</p>
     <div class="skills-wrapper">
         <p>HTML5 | HAML</p>
         <div class="container">
@@ -106,52 +121,52 @@
   </section>
 
   <section class="projects" id="projects">
-    <p class="header header-color">My Projects</p>
+    <p class="header header-color">Projects</p>
     <div class="portfolio-grid">
       <a href="https://codepen.io/versavale/pen/GEVKep" target="_blank" class="container">
-        <img src="assets/calc2.png">
+        <img src="assets/calc2.png" alt="Calculator">
         <div class="overlay">
           <div class="text">Calculator<br><hr>HTML | CSS | JS</div>
         </div>
       </a>
       <a href="https://codepen.io/versavale/pen/oeVXyM" target="_blank" class="container">
-        <img src="assets/pomo2.png">
+        <img src="assets/pomo2.png" alt="Pomodoro Clock">
         <div class="overlay">
           <div class="text">Pomodoro Clock<br><hr>HTML | CSS | JS</div>
         </div>
       </a>
       <a href="https://codepen.io/versavale/pen/BmNybz" target="_blank" class="container">
-          <img src="assets/tictac2.png">
+          <img src="assets/tictac2.png" alt="Tic Tac Toe">
           <div class="overlay">
             <div class="text">AI Tic Tac Toe<br><hr>HTML | CSS | JS</div>
           </div>
       </a>
       <a href="https://codepen.io/versavale/pen/YNMGxJ?editors=0010" target="_blank" class="container">
-          <img src="assets/wea2.png">
+          <img src="assets/wea2.png" alt="Weather app">
         <div class="overlay">
           <div class="text">Weather app<br><hr>HTML | CSS | JS | JSON</div>
         </div>
       </a>
       <a href="https://codepen.io/versavale/pen/OOzyqW" target="_blank" class="container">
-          <img src="assets/simo.png">
+          <img src="assets/simo.png" alt="Simon Game">
         <div class="overlay">
           <div class="text">Simon Game<br><hr>HTML | CSS | JS</div>
         </div>
       </a>
       <a href="https://codepen.io/versavale/pen/QdJWzv" target="_blank" class="container">
-        <img src="assets/quote.png">
+        <img src="assets/quote.png" alt="Quote Generator">
       <div class="overlay">
         <div class="text">Quote Generator<br><hr>HTML | CSS | JS</div>
       </div>
       </a>
       <a href="https://www.loudly.com/" target="_blank" class="container">
-          <img src="assets/loudly.png">
+          <img src="assets/loudly.png" alt="Loudly Website">
         <div class="overlay">
           <div class="text">Loudly App Website<br><hr>HTML | CSS | JS</div>
         </div>
       </a>
       <a href="https://github.com/versavale/ToDoList-React" target="_blank" class="container">
-        <img src="assets/todo-react.png">
+        <img src="assets/todo-react.png" alt="To-Do List">
       <div class="overlay">
         <div class="text">To-Do List<br><hr>React</div>
       </div>
