@@ -228,28 +228,24 @@ li a.special-link {
   overflow-y: hidden; }
 
 .hero {
+  padding-top: calc(50px + 1em);
   background: linear-gradient(to right, #0844ff, #f5c5cd);
-  padding-top: 0;
-  color: #FFFFFF;
-  padding-bottom: 0; }
+  color: #FFFFFF; }
 
 .hero-content {
   width: 60%;
-  margin: 0 auto;
+  margin: 8% auto;
   text-align: center; }
-
-.hero-content-main {
-  display: grid; }
-  .hero-content-main h1 {
-    margin-top: 3em; }
-  .hero-content-main img {
+  .hero-content h1 {
+    margin-top: 0; }
+  .hero-content img {
     height: 1.7em;
     width: 1.7em;
     display: inline-block;
     padding-right: 10px; }
-  .hero-content-main .loc__text {
+  .hero-content .loc__text {
     display: inline; }
-  .hero-content-main .button {
+  .hero-content .button {
     padding-top: 2em; }
 
 .about {

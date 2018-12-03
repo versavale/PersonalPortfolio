@@ -90,23 +90,19 @@ li a.special-link {
 //HERO
 
 .hero {
+  padding-top: calc(50px + 1em);
   background: $background-gradient;
-  padding-top: 0;
   color: $color-white;
-  padding-bottom: 0;
 }
 
 .hero-content {
   width: 60%;
-  margin: 0 auto;
+  margin: 8% auto;
   text-align: center;
-}
-
-.hero-content-main {
-  display: grid;
 
    h1 {
-    margin-top: 3em;
+    margin-top: 0;
+
   } 
 
   img {
