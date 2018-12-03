@@ -38,7 +38,8 @@ h2 {
 
 a {
   text-decoration: none;
-  color: #9a0e2a; }
+  color: #9a0e2a;
+  cursor: pointer; }
 
 .anim {
   animation: pulsate 1.5s;
