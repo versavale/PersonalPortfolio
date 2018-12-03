@@ -29,6 +29,11 @@ h2 {
   font-size: $font-reg;
 }
 
+a {
+  text-decoration: none;
+  color: $color-darkred;
+}
+
 
 .anim {
   animation: pulsate 1.5s;

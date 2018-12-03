@@ -36,6 +36,10 @@ h1 {
 h2 {
   font-size: 36px; }
 
+a {
+  text-decoration: none;
+  color: #9a0e2a; }
+
 .anim {
   animation: pulsate 1.5s;
   animation-iteration-count: infinite;
