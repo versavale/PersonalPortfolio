@@ -36,6 +36,9 @@ h1 {
 h2 {
   font-size: 36px; }
 
+h3 {
+  font-size: 16px; }
+
 a {
   text-decoration: none;
   color: #5106ba;
@@ -394,7 +397,7 @@ footer {
     height: 2em;
     margin: 0 auto;
     display: inline-block; }
-  .social-container h4 {
+  .social-container h3 {
     margin-top: 0.5em; }
 
 .social-wrap:hover > .icon--twitter {
@@ -413,7 +416,7 @@ footer {
   background-image: url("assets/at-solid-hover.svg");
   transition: .5s ease; }
 
-.social-wrap:hover > h4 {
+.social-wrap:hover > h3 {
   color: #5106ba;
   transition: .5s ease; }
 

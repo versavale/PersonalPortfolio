@@ -298,7 +298,7 @@ footer {
     display: inline-block;
     }
 
-  h4 {
+  h3 {
     margin-top: 0.5em;
   }
 }
@@ -323,7 +323,7 @@ footer {
   transition: .5s ease;
 }
 
-.social-wrap:hover>h4 {
+.social-wrap:hover>h3 {
   color: $color-darkblue;
   transition: .5s ease;
 }
