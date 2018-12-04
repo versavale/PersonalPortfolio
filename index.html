@@ -34,6 +34,7 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script type="text/javascript" src="code.js"></script>
+  </head>
   <body>
   <nav id="navbar">
     <div class="nav-content">
@@ -51,13 +52,13 @@
     </nav>
 
 
-    <section class="content" id="home">
+  <section class="content" id="home">
 
   <section class="hero" id="hero">
     <div class="hero-content">
         <h1>Valentina Versari</h1>
         <h2>Frontend Web Developer</h2>
-        <img src="assets/map.svg" alt="pin">
+        <img class="loc" src="assets/map.svg" alt="pin">
           <h2 class="loc__text">Berlin, Germany</h2>
         <div class="button anim"><a class="js-about">Learn More</a></div>
   </div>
@@ -66,18 +67,18 @@
   <section class="about" id="about">
     <p class="header header-color">About Me</p>
     <div class="layout--two-columns">
-      <div class="website">
-          <img class="icon" src="assets/code.svg" alt="Code icon">
-          <h2 class="all-red">Passion for Code</h2>
-          <p class="double-column">I'm a Frontend Web Developer and a learner by heart.</p><br>
-          <p class="double-column">Since early 2017 I've been learning how to code beautiful websites and adding more tools to my toolbox.</p><br> 
-          <p class="double-column">I'm currently employed as Junior Frontend Web Developer at <a href="www.mobilejob.com">Mobilejob.com.</a></p>
+      <div class="about--website">
+          <img class="about--website__icon" src="assets/code.svg" alt="Code icon">
+          <h2 class="about--website__header">Passion for Code</h2>
+          <p class="about--website__text">I'm a Frontend Web Developer and a learner by heart.</p><br>
+          <p class="about--website__text">Since early 2017 I've been learning how to code beautiful websites and adding more tools to my toolbox.</p><br> 
+          <p class="about--website__text">I'm currently employed as Junior Frontend Web Developer at <a href="www.mobilejob.com">Mobilejob.com.</a></p>
         </div>
-      <div class="communication">
-        <img class="icon" src="assets/megaphone.svg" alt="Megaphone">
-        <h2 class="all-red">Marketing Expertise</h2>
-        <p class="double-column">I have a Master's degree in Communications Sciences and I've worked in Marketing-Communications for over eight years.</p><br>
-        <p class="double-column">SEO, Online Marketing, Community Management: those are just some of the skills I developed in my career in Marketing. I'm confident I will be able to apply those skills in my dev career a well!</p>
+      <div class="about--communication">
+        <img class="about--communication__icon" src="assets/megaphone.svg" alt="Megaphone">
+        <h2 class="about--communication__header">Marketing Expertise</h2>
+        <p class="about--communication__text">I have a Master's degree in Communications Sciences and I've worked in Marketing-Communications for over eight years.</p><br>
+        <p class="about--communication__text">SEO, Online Marketing, Community Management: those are just some of the skills I developed in my career in Marketing. I'm confident I will be able to apply those skills in my dev career a well!</p>
       </div>
     </div>
     <div class="button button-dark"><a href='https://www.linkedin.com/in/valentinaversari'  target=”_blank” >See my full CV on LinkedIn</a></div>
@@ -86,40 +87,40 @@
 
   <section class="my-skills" id="skills">
     <p class="header">Skills</p>
-    <div class="skills-wrapper">
+    <div class="my-skills__wrapper">
         <p>HTML5 | HAML</p>
-        <div class="container">
-          <div class="skills html">90%</div>
+        <div class="my-skills__container">
+          <div class="my-skills__div html">90%</div>
         </div>
         
         <p>CSS | SCSS | Bootstrap | BEM</p>
-        <div class="container">
-          <div class="skills css">80%</div>
+        <div class="my-skills__container">
+          <div class="my-skills__div css">80%</div>
         </div>
 
         <p>GIT | Version Control</p>
-        <div class="container">
-          <div class="skills git">75%</div>
+        <div class="my-skills__container">
+          <div class="my-skills__div git">75%</div>
         </div>
         
         <p>JavaScript ES5 / ES6 | JQuery</p>
-        <div class="container">
-          <div class="skills js">65%</div>
+        <div class="my-skills__container">
+          <div class="my-skills__div js">65%</div>
         </div>
         
         <p>React.js</p>
-        <div class="container">
-          <div class="skills skills--special react">Work in progress</div>
+        <div class="my-skills__container">
+          <div class="my-skills__div my-skills__div--special react">Work in progress</div>
         </div>
 
         <p>Ruby | Rails</p>
-        <div class="container">
-          <div class="skills skills--special ruby">Work in progress</div>
+        <div class="my-skills__container">
+          <div class="my-skills__div my-skills__div--special ruby">Work in progress</div>
         </div>
 
         <p>Motivation in learning new things</p>
-        <div class="container">
-          <div class="skills learning">100%</div>
+        <div class="my-skills__container">
+          <div class="my-skills__div learning">100%</div>
         </div>
     </div>
   </section>

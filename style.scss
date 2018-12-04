@@ -106,7 +106,7 @@ li a.special-link {
 
   } 
 
-  img {
+  .loc {
     height: 1.7em;
     width: 1.7em;
     display: inline-block;
@@ -131,13 +131,13 @@ li a.special-link {
   text-align: center;
   padding-bottom: 4em;
 
-  .all-red {
+  .about--communication__header, .about--website__header {
     margin-top: 10px;
     color: $color-blue;
   }
 }
 
-.icon {
+.about--website__icon, .about--communication__icon{
   height: 5em;
   width: 5em;
 }
@@ -146,7 +146,7 @@ li a.special-link {
   padding-top: 3em;
 }
 
-.double-column {
+.about--website__text, .about--communication__text {
   width: 70%;
   margin: 0 auto;
   text-align: left;
@@ -167,24 +167,24 @@ li a.special-link {
     font-weight: bold;
   }
 
-  .skills-wrapper {
+  .my-skills__wrapper {
     width: 60%;
     margin: 0 auto;
   }
 
-  .container {
+  .my-skills__container {
     background-color: $color-grey;
     border-radius: 6px;
     width: 100%;
     
-    .skills {
+    .my-skills__div {
       border-radius: 6px;
       text-align: right;
       padding: 10px;
       color: white;
     }
 
-    .skills--special {
+    .my-skills__div--special {
       border-radius: 6px;
       text-align: left;
       padding: 10px;
@@ -435,12 +435,12 @@ footer {
       display: block;
     }
 
-    .communication, .website {
+    .about--communication, .about--website {
       display: block;
       width: 100%;
     }
 
-    .communication {
+    .about--communication {
       margin-top: 20px;
     }
 

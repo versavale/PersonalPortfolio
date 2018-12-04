@@ -246,7 +246,7 @@ li a.special-link {
   text-align: center; }
   .hero-content h1 {
     margin-top: 0; }
-  .hero-content img {
+  .hero-content .loc {
     height: 1.7em;
     width: 1.7em;
     display: inline-block;
@@ -262,18 +262,18 @@ li a.special-link {
   margin-top: -38px;
   text-align: center;
   padding-bottom: 4em; }
-  .about .all-red {
+  .about .about--communication__header, .about .about--website__header {
     margin-top: 10px;
     color: #0844ff; }
 
-.icon {
+.about--website__icon, .about--communication__icon {
   height: 5em;
   width: 5em; }
 
 .button {
   padding-top: 3em; }
 
-.double-column {
+.about--website__text, .about--communication__text {
   width: 70%;
   margin: 0 auto;
   text-align: left; }
@@ -285,40 +285,40 @@ li a.special-link {
     color: #FFFFFF; }
   .my-skills p.special {
     font-weight: bold; }
-  .my-skills .skills-wrapper {
+  .my-skills .my-skills__wrapper {
     width: 60%;
     margin: 0 auto; }
-  .my-skills .container {
+  .my-skills .my-skills__container {
     background-color: #ddd;
     border-radius: 6px;
     width: 100%; }
-    .my-skills .container .skills {
+    .my-skills .my-skills__container .my-skills__div {
       border-radius: 6px;
       text-align: right;
       padding: 10px;
       color: white; }
-    .my-skills .container .skills--special {
+    .my-skills .my-skills__container .my-skills__div--special {
       border-radius: 6px;
       text-align: left;
       padding: 10px;
       color: black; }
-    .my-skills .container .html {
+    .my-skills .my-skills__container .html {
       width: 90%;
       background-color: #5106ba; }
-    .my-skills .container .css {
+    .my-skills .my-skills__container .css {
       width: 80%;
       background-color: #5106ba; }
-    .my-skills .container .git {
+    .my-skills .my-skills__container .git {
       width: 75%;
       background-color: #5106ba; }
-    .my-skills .container .js {
+    .my-skills .my-skills__container .js {
       width: 65%;
       background-color: #5106ba; }
-    .my-skills .container .react {
+    .my-skills .my-skills__container .react {
       background-color: #f5c5cd; }
-    .my-skills .container .ruby {
+    .my-skills .my-skills__container .ruby {
       background-color: #f5c5cd; }
-    .my-skills .container .learning {
+    .my-skills .my-skills__container .learning {
       background-color: #5106ba; }
 
 .projects {
@@ -484,10 +484,10 @@ footer {
     margin: 0 auto; }
     .about .layout--two-columns {
       display: block; }
-    .about .communication, .about .website {
+    .about .about--communication, .about .about--website {
       display: block;
       width: 100%; }
-    .about .communication {
+    .about .about--communication {
       margin-top: 20px; }
     .about .portfolio-grid {
       width: 90%;
