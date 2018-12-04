@@ -360,7 +360,8 @@ li a.special-link {
     box-sizing: border-box;
     background-color: #5106ba; }
   .portfolio-grid .container:hover .overlay {
-    opacity: 1; }
+    opacity: 1;
+    transition: .5s ease; }
   .portfolio-grid .text {
     color: white;
     font-size: 20px;

@@ -250,6 +250,7 @@ li a.special-link {
 
   .container:hover .overlay {
     opacity: 1;
+    transition: .5s ease;
   }
   
   .text {
