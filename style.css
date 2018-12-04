@@ -38,7 +38,7 @@ h2 {
 
 a {
   text-decoration: none;
-  color: #9a0e2a;
+  color: #5106ba;
   cursor: pointer; }
 
 .anim {
@@ -109,27 +109,27 @@ a {
     margin-bottom: 4em;
     transition: .5s ease; }
     .button a:hover {
-      background-color: #DC143C; }
+      background-color: #5106ba; }
     .button a:active {
-      background-color: #9a0e2a; }
+      background-color: #5106ba; }
 
 .button-dark {
   margin-bottom: 3em; }
   .button-dark a {
     text-decoration: none;
-    color: #DC143C;
+    color: #5106ba;
     background-color: #FFFFFF;
     padding: 10px 10px;
-    border: 2px solid #DC143C;
+    border: 2px soliblue;
     border-radius: 8px;
     font-size: 24px;
     margin-bottom: 4em;
     transition: .5s ease; }
     .button-dark a:hover {
-      background-color: #DC143C;
+      background-color: #5106ba;
       color: #FFFFFF; }
     .button-dark a:active {
-      background-color: #9a0e2a;
+      background-color: #5106ba;
       color: #FFFFFF; }
 
 button {
@@ -143,9 +143,9 @@ button {
   margin-bottom: 4em;
   transition: .5s ease; }
   button:hover {
-    background-color: #DC143C; }
+    background-color: #5106ba; }
   button:active {
-    background-color: #9a0e2a; }
+    background-color: #5106ba; }
 
 .icon--github {
   background-image: url("assets/github-brands.svg");
@@ -203,9 +203,10 @@ li a {
   padding: 10px 8px;
   transition: .5s ease; }
   li a:hover {
-    color: #DC143C; }
+    background-color: #5106ba;
+    border-radius: 8px; }
   li a:active {
-    color: #9a0e2a; }
+    color: #5106ba; }
 
 li a.astronaut {
   content: url(assets/astro.svg);
@@ -219,12 +220,12 @@ li a.special-link {
   color: #FFFFFF;
   transition: .5s ease; }
   li a.special-link:hover {
-    background-color: #DC143C;
+    background-color: #5106ba;
     border: 2px solid #FFFFFF;
     color: #FFFFFF;
     transition: .5s ease; }
   li a.special-link:active {
-    background-color: #9a0e2a;
+    background-color: #5106ba;
     color: #FFFFFF;
     transition: .5s ease; }
 
@@ -300,22 +301,22 @@ li a.special-link {
       color: black; }
     .my-skills .container .html {
       width: 90%;
-      background-color: #DC143C; }
+      background-color: #5106ba; }
     .my-skills .container .css {
       width: 80%;
-      background-color: #DC143C; }
+      background-color: #5106ba; }
     .my-skills .container .git {
       width: 75%;
-      background-color: #DC143C; }
+      background-color: #5106ba; }
     .my-skills .container .js {
       width: 65%;
-      background-color: #DC143C; }
+      background-color: #5106ba; }
     .my-skills .container .react {
       background-color: #f5c5cd; }
     .my-skills .container .ruby {
       background-color: #f5c5cd; }
     .my-skills .container .learning {
-      background-color: #DC143C; }
+      background-color: #5106ba; }
 
 .projects {
   background: #f2e9e4;
@@ -354,7 +355,7 @@ li a.special-link {
     border-radius: 3px;
     transition: .3s ease;
     box-sizing: border-box;
-    background-color: #9a0e2a; }
+    background-color: #5106ba; }
   .portfolio-grid .container:hover .overlay {
     opacity: 1; }
   .portfolio-grid .text {
@@ -413,7 +414,7 @@ footer {
   transition: .5s ease; }
 
 .social-wrap:hover > h4 {
-  color: #9a0e2a;
+  color: #5106ba;
   transition: .5s ease; }
 
 .copy {
@@ -469,6 +470,8 @@ footer {
     padding-top: 0; }
     .button-anim a {
       padding-top: 0; }
+    .button-anim .button {
+      margin: 2em 0; }
   .skills-wrapper {
     width: 90%;
     margin: 0 auto; }

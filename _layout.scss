@@ -31,7 +31,7 @@ h2 {
 
 a {
   text-decoration: none;
-  color: $color-darkred;
+  color: $color-darkblue;
   cursor: pointer;
 }
 
@@ -53,7 +53,7 @@ a {
 }
 
 .header-color {
-  color: $color-pink;
+  color: $color-blue;
 }
 
 
@@ -126,11 +126,11 @@ a {
     transition: .5s ease;
 
     &:hover {
-      background-color: $color-red;
+      background-color: $color-darkblue;
     }
 
     &:active {
-      background-color: $color-darkred;
+      background-color: $color-darkblue;
     }
   }
 }
@@ -140,29 +140,29 @@ a {
 
   a{
     text-decoration: none;
-    color: $color-red;
+    color: $color-darkblue;
     background-color: $color-white;
     padding: 10px 10px;
-    border: 2px solid $color-red;
+    border: 2px soliblue;
     border-radius: $radius;
     font-size: $font-small;
     margin-bottom: 4em;
     transition: .5s ease;
 
     &:hover {
-      background-color: $color-red;
+      background-color: $color-darkblue;
       color: $color-white;
     }
 
     &:active {
-      background-color: $color-darkred;
+      background-color: $color-darkblue;
       color: $color-white;
     }
   }
 }
 
 button {
-  background-color: $color-pink;
+  background-color: $color-blue;
   text-decoration: none;
   color: $color-white;
   padding: 10px 10px;
@@ -173,11 +173,11 @@ button {
   transition: .5s ease;
 
   &:hover {
-    background-color: $color-red;
+    background-color: $color-darkblue;
   }
 
   &:active {
-    background-color: $color-darkred;
+    background-color: $color-darkblue;
   }
 }
 

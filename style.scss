@@ -46,11 +46,12 @@ li a {
   transition: .5s ease;
     
   &:hover {
-    color: $color-red;
+    background-color: $color-darkblue;
+    border-radius: 8px;
   }
 
   &:active {
-    color: $color-darkred;
+    color: $color-darkblue;
   }
 }
 
@@ -68,14 +69,14 @@ li a.special-link {
   transition: .5s ease;
 
   &:hover {
-    background-color: $color-red;
+    background-color: $color-darkblue;
     border: 2px solid $color-white;
     color: $color-white;
     transition: .5s ease;
   }
 
   &:active {
-    background-color: $color-darkred;
+    background-color: $color-darkblue;
     color: $color-white;
     transition: .5s ease;
   }
@@ -132,7 +133,7 @@ li a.special-link {
 
   .all-red {
     margin-top: 10px;
-    color: $color-pink;
+    color: $color-blue;
   }
 }
 
@@ -190,13 +191,13 @@ li a.special-link {
       color: black;
     }
     
-    .html {width: 90%; background-color: $color-red;}
-    .css {width: 80%; background-color: $color-red;}
-    .git {width: 75%; background-color: $color-red;}
-    .js {width: 65%; background-color: $color-red;}
+    .html {width: 90%; background-color: $color-darkblue;}
+    .css {width: 80%; background-color: $color-darkblue;}
+    .git {width: 75%; background-color: $color-darkblue;}
+    .js {width: 65%; background-color: $color-darkblue;}
     .react {background-color: $color-lightpink;}
     .ruby {background-color: $color-lightpink;}
-    .learning {background-color: $color-red;}
+    .learning {background-color: $color-darkblue;}
   }
 }
 
@@ -244,7 +245,7 @@ li a.special-link {
     border-radius: 3px;
     transition: .3s ease;
     box-sizing: border-box;
-    background-color: $color-darkred;
+    background-color: $color-darkblue;
   }
 
   .container:hover .overlay {
@@ -323,7 +324,7 @@ footer {
 }
 
 .social-wrap:hover>h4 {
-  color: $color-darkred;
+  color: $color-darkblue;
   transition: .5s ease;
 }
 
@@ -413,6 +414,10 @@ footer {
 
     a {
       padding-top: 0;
+    }
+
+    .button {
+      margin: 2em 0;
     }
   }
 
