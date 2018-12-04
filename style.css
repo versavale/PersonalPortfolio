@@ -432,7 +432,7 @@ footer {
     margin: 0 auto; }
   .hero-content {
     width: 80%;
-    margin: 0 auto;
+    margin: 8% auto;
     text-align: center; }
   .skills-wrapper {
     width: 80%;
@@ -463,8 +463,12 @@ footer {
     margin: 0 auto; }
   .hero-content {
     width: 90%;
-    margin: 0 auto;
+    margin: 8% auto;
     text-align: center; }
+  .button-anim {
+    padding-top: 0; }
+    .button-anim a {
+      padding-top: 0; }
   .skills-wrapper {
     width: 90%;
     margin: 0 auto; }
