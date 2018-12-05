@@ -287,39 +287,62 @@ li a.special-link {
     font-weight: bold; }
   .my-skills .my-skills__wrapper {
     width: 60%;
-    margin: 0 auto; }
-  .my-skills .my-skills__container {
-    background-color: #ddd;
-    border-radius: 6px;
-    width: 100%; }
-    .my-skills .my-skills__container .my-skills__div {
-      border-radius: 6px;
-      text-align: right;
-      padding: 10px;
-      color: white; }
-    .my-skills .my-skills__container .my-skills__div--special {
-      border-radius: 6px;
-      text-align: left;
-      padding: 10px;
-      color: black; }
-    .my-skills .my-skills__container .html {
-      width: 90%;
-      background-color: #5106ba; }
-    .my-skills .my-skills__container .css {
-      width: 80%;
-      background-color: #5106ba; }
-    .my-skills .my-skills__container .git {
-      width: 75%;
-      background-color: #5106ba; }
-    .my-skills .my-skills__container .js {
-      width: 65%;
-      background-color: #5106ba; }
-    .my-skills .my-skills__container .react {
-      background-color: #f5c5cd; }
-    .my-skills .my-skills__container .ruby {
-      background-color: #f5c5cd; }
-    .my-skills .my-skills__container .learning {
-      background-color: #5106ba; }
+    margin: 3em auto 0 auto; }
+  .my-skills .skill-wrap {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .my-skills .skill-name {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: white;
+    clear: both;
+    float: left;
+    padding-left: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    width: calc(40% - 10px);
+    overflow: hidden; }
+  .my-skills #skill_html, .my-skills #skill_js {
+    background-color: #088A85; }
+  .my-skills #skill_css, .my-skills #skill_react {
+    background-color: #5858FA; }
+  .my-skills #skill_git, .my-skills #skill_ruby {
+    background-color: #04B404; }
+  .my-skills #skill_mot {
+    background-color: #5106ba; }
+  .my-skills .skillbar-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 60%;
+    background-color: #E6E6E6;
+    height: 40px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px; }
+  .my-skills .skillbar-bar {
+    height: 40px;
+    width: 0px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px; }
+  .my-skills #skillbar_html, .my-skills #skillbar_js {
+    background-color: #01DFD7; }
+  .my-skills #skillbar_css, .my-skills #skillbar_react {
+    background-color: #8181F7; }
+  .my-skills #skillbar_git, .my-skills #skillbar_ruby {
+    background-color: #01DF01; }
+  .my-skills #skillbar_mot {
+    background-color: #8550ce; }
+  .my-skills .skill-bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    color: black;
+    overflow: hidden; }
+  .my-skills .skill-bar-percent--bold {
+    font-weight: bold; }
 
 .projects {
   background: #f2e9e4;

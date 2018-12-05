@@ -169,36 +169,89 @@ li a.special-link {
 
   .my-skills__wrapper {
     width: 60%;
-    margin: 0 auto;
+    margin: 3em auto 0 auto;
   }
+ 
+.skill-wrap {
+  margin-top: 10px;
+  margin-bottom: 10px;
+} 
 
-  .my-skills__container {
-    background-color: $color-grey;
-    border-radius: 6px;
-    width: 100%;
-    
-    .my-skills__div {
-      border-radius: 6px;
-      text-align: right;
-      padding: 10px;
-      color: white;
-    }
+.skill-name {
+  height: 40px;
+  line-height: 40px;
+  font-size: $font-mini;
+  color: white;
+  clear: both;
+  float: left;
+  padding-left: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  width: calc(40% - 10px);
+  overflow: hidden;
+}
 
-    .my-skills__div--special {
-      border-radius: 6px;
-      text-align: left;
-      padding: 10px;
-      color: black;
-    }
-    
-    .html {width: 90%; background-color: $color-darkblue;}
-    .css {width: 80%; background-color: $color-darkblue;}
-    .git {width: 75%; background-color: $color-darkblue;}
-    .js {width: 65%; background-color: $color-darkblue;}
-    .react {background-color: $color-lightpink;}
-    .ruby {background-color: $color-lightpink;}
-    .learning {background-color: $color-darkblue;}
-  }
+ #skill_html,  #skill_js {
+  background-color:#088A85;
+}
+
+ #skill_css, #skill_react {
+  background-color:#5858FA;
+}
+
+ #skill_git, #skill_ruby {
+  background-color:#04B404;
+}
+
+ #skill_mot {
+  background-color:#5106ba;
+}
+
+ .skillbar-wrapper {
+  position:relative;
+  display:inline-block;
+  width:60%;
+  background-color:#E6E6E6;
+  height:40px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+ }
+ .skillbar-bar {
+  height: 40px;
+  width: 0px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+ }
+ #skillbar_html,  #skillbar_js {
+  background-color:#01DFD7;
+ }
+
+ #skillbar_css,  #skillbar_react {
+  background-color:#8181F7;
+ }
+ #skillbar_git, #skillbar_ruby {
+  background-color:#01DF01;
+ }
+
+ #skillbar_mot {
+  background-color:#8550ce;
+ }
+
+ .skill-bar-percent {
+  position:absolute;
+  right:10px;
+  top:0;
+  font-size: $font-mini;
+  height:35px;
+  line-height:35px;
+  color:black;
+  overflow: hidden;
+ }
+ 
+ .skill-bar-percent--bold {
+   font-weight: bold;
+ }
+
 }
 
 //PROJECTS
@@ -460,3 +513,5 @@ footer {
       margin: 0 auto;
     }
   }
+
+
