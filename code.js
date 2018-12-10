@@ -40,11 +40,10 @@ $('.js-contact').click(function (e) {
     });
 });
 
-});
 
 $(window).scroll(function () {
     var y = $(window).scrollTop(),
-        x = $('#skillbar_html').offset().top - 50;
+        x = $('#skillbar_html').offset().top - 200;
     if (y > x) {
         $("#skillbar_html").animate({width:'85%'},1500);
         $("#skillbar_css").animate({width:'80%'},1500);
@@ -54,4 +53,6 @@ $(window).scroll(function () {
         $("#skillbar_ruby").animate({width:'0%'},1500);
         $("#skillbar_mot").animate({width:'100%'},1500);
     }
+});
+
 });

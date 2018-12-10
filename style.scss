@@ -271,14 +271,14 @@ li a.special-link {
 
   .container {
     position: relative;
-    margin: 30px auto 50px auto;
+    margin: 20px auto 20px auto;
   }
 
   img {
     justify-self: center;
     display: block;
-    width: 10em;
-    height: 10em;
+    width: 12em;
+    height: 12em;
     border-radius: 3px;
     box-sizing: border-box;
     margin: 20px;
@@ -291,8 +291,8 @@ li a.special-link {
     bottom: 0;
     left: 0;
     right: 0;
-    width: 10em;
-    height: 10em;
+    width: 12em;
+    height: 12em;
     margin: 20px;
     opacity: 0;
     border-radius: 3px;
@@ -496,11 +496,18 @@ footer {
     .about--communication {
       margin-top: 20px;
     }
-
+  }
     .portfolio-grid {
-      width: 90%;
-      margin: 0 auto;
-    }
+      width: 100%;
+
+      .container {
+        margin: 0 auto;
+      }
+
+      img, .overlay {
+        width: 14em;
+        height: 14em;
+      }
   }
 
   .overlay {
