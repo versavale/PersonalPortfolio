@@ -275,8 +275,7 @@ li a.special-link {
 
 .about--website__text, .about--communication__text {
   width: 70%;
-  margin: 0 auto;
-  text-align: left; }
+  margin: 0 auto; }
 
 .my-skills {
   background: linear-gradient(to right, #0844ff, #f5c5cd);
@@ -482,6 +481,12 @@ footer {
     padding-top: 2em; } }
 
 @media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 36px; }
+  h2 {
+    font-size: 24px; }
+  h3 {
+    font-size: 16px; }
   .hero {
     background-color: yellow; }
     .hero .content-left {
@@ -491,7 +496,7 @@ footer {
     margin: 0 auto; }
   .hero-content {
     width: 90%;
-    margin: 8% auto;
+    margin: 20% auto;
     text-align: center; }
   .button-anim {
     padding-top: 0; }

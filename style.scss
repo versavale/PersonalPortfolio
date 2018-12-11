@@ -149,7 +149,6 @@ li a.special-link {
 .about--website__text, .about--communication__text {
   width: 70%;
   margin: 0 auto;
-  text-align: left;
 }
 
 //skills 
@@ -443,6 +442,19 @@ footer {
 
 @media only screen and (max-width: 400px) {
 
+  h1 {
+    font-size: $font-reg;
+  }
+
+
+  h2 {
+    font-size: $font-small;
+  }
+  
+  h3 {
+    font-size: $font-smaller;
+  }
+
 
   .hero {
     background-color: yellow;
@@ -459,7 +471,7 @@ footer {
 
   .hero-content {
     width: 90%;
-    margin: 8% auto;
+    margin: 20% auto;
     text-align: center;
   }
 
