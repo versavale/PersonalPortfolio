@@ -130,18 +130,47 @@ li a.special-link {
   margin-top: -38px;
   text-align: center;
   padding-bottom: 4em;
+  
+  .about--website, .about--communication {
+    border: 3px solid $color-lightpink;
+    border-radius: 6px;
+    padding: 25px 0;
+    background-color: transparent;
+  }
 
-  .about--communication__header, .about--website__header {
+  .about--website {
+    margin-right: 5px;
+  }
+
+  .about--communication {
+    margin-left: 5px;
+  }
+  .about--communication__header{
     margin-top: 10px;
     color: $color-blue;
+
+    &::before {
+      content: '✎ '
+    }
+  }
+
+
+  .about--website__header {
+    margin-top: 10px;
+    color: $color-blue;
+
+    &::before {
+      content: '❴ ❵ '
+    }
   }
 }
 
-.about--website__icon, .about--communication__icon{
-  height: 5em;
-  width: 5em;
+/* .about--website__icon, .about--communication__icon{
+  display: inline-block;
+  height: 2em;
+  width: 2em;
 }
-
+ */
 .button {
   padding-top: 3em;
 }
