@@ -46,8 +46,7 @@ li a {
   transition: .5s ease;
     
   &:hover {
-    background-color: $color-darkblue;
-    border-radius: 8px;
+   color: $color-darkblue;
   }
 
   &:active {
@@ -295,7 +294,6 @@ li a.special-link {
   display: flex;
   padding-top: $card-padding;
   flex-flow: row wrap;
-  justify-content: flex-end;
 
   .container {
     position: relative;
