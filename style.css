@@ -631,3 +631,9 @@ footer {
     display: block;
     width: 60%;
     margin: 0 auto; } }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  nav ul {
+    display: inline-block; }
+  nav li {
+    display: inline-block; } }

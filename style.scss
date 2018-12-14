@@ -561,3 +561,13 @@ footer {
   }
 
 
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    nav {
+      ul {
+        display: inline-block;
+      }
+      li {
+        display: inline-block;
+      }
+    }
+}
