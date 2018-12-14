@@ -561,13 +561,33 @@ footer {
   }
 
 
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    nav {
-      ul {
-        display: inline-block;
-      }
-      li {
-        display: inline-block;
-      }
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  nav {
+    ul {
+      display: inline-block;
     }
+    li {
+      display: inline-block;
+    }
+  }
+
+  .socials {
+    width: 80%;
+    margin: 0 auto;
+
+    .social-container {
+      display: inline-block;
+    }
+  }
+}
+
+@supports (-ms-ime-align: auto) {
+  nav {
+    ul {
+      display: inline-block;
+    }
+    li {
+      display: inline-block;
+    }
+  }
 }

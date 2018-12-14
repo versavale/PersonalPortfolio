@@ -636,4 +636,15 @@ footer {
   nav ul {
     display: inline-block; }
   nav li {
+    display: inline-block; }
+  .socials {
+    width: 80%;
+    margin: 0 auto; }
+    .socials .social-container {
+      display: inline-block; } }
+
+@supports (-ms-ime-align: auto) {
+  nav ul {
+    display: inline-block; }
+  nav li {
     display: inline-block; } }
