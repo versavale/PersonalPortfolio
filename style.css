@@ -366,12 +366,6 @@ li a.special-link {
     .about .about--website__header::before {
       content: '❴ ❵ '; }
 
-/* .about--website__icon, .about--communication__icon{
-  display: inline-block;
-  height: 2em;
-  width: 2em;
-}
- */
 .button {
   padding-top: 3em; }
 
