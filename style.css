@@ -347,10 +347,9 @@ li a.special-link {
   text-align: center;
   padding-bottom: 4em; }
   .about .about--website, .about .about--communication {
-    border: 3px solid #f5c5cd;
     border-radius: 6px;
-    padding: 25px 0;
-    background-color: transparent; }
+    padding: 45px 0;
+    background-color: #e2cfcf; }
   .about .about--website {
     margin-right: 5px; }
   .about .about--communication {
@@ -546,7 +545,7 @@ footer {
   padding: 1em;
   margin-bottom: 0; }
 
-@media only screen and (min-width: 401px) and (max-width: 1000px) {
+@media only screen and (min-width: 550px) and (max-width: 1000px) {
   body {
     width: 100%; }
   .nav-content {
@@ -564,6 +563,9 @@ footer {
   .about {
     width: 80%;
     margin: 0 auto; }
+  .about--website, .about--communication {
+    border-radius: 6px;
+    padding: 25px 0; }
   .portfolio-grid {
     width: 80%;
     margin: 0 auto; }
@@ -575,7 +577,7 @@ footer {
     padding-bottom: 0;
     padding-top: 2em; } }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 549px) {
   h1 {
     font-size: 36px; }
   h2 {
@@ -607,9 +609,6 @@ footer {
     margin: 0 auto; }
     .about .layout--two-columns {
       display: block; }
-    .about .about--communication, .about .about--website {
-      display: block;
-      width: 100%; }
     .about .about--communication {
       margin-top: 20px; }
   .portfolio-grid {
