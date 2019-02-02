@@ -1,8 +1,9 @@
 //constants
 
 $color-lightpink: #f5c5cd;
-$color-blue: #0844ff;
+$color-blue: #C60039;
 $color-darkblue: #5106ba;
+$color-eggplant: #4F769F;
 $color-white: #FFFFFF;
 $color-off-white: #f2e9e4;
 $color-black: #000000;
@@ -24,18 +25,18 @@ $radius: 8px;
 
 $padding-top: 3em;
 
-$box-shadow: 6px 6px 20px 0px #929090;
+$box-shadow: 6px 6px 20px 0px #bebbbb;
 
 
 
 @keyframes pulsate {
-    0% { 
+    0% {
         opacity: 0;
     }
-    50% { 
+    50% {
         opacity: 1.0;
     }
-    100% { 
+    100% {
         opacity: 0;
     }
 }

@@ -59,7 +59,7 @@ a {
   font-weight: 900; }
 
 .header-color {
-  color: #0844ff; }
+  color: #C60039; }
 
 .layout--two-columns {
   display: -ms-grid;
@@ -221,7 +221,7 @@ a {
       color: #FFFFFF; }
 
 button {
-  background-color: #0844ff;
+  background-color: #C60039;
   text-decoration: none;
   color: #FFFFFF;
   padding: 10px 10px;
@@ -258,7 +258,7 @@ button {
 #navbar {
   position: fixed;
   font-weight: 54px;
-  background: linear-gradient(to right, #0844ff, #f5c5cd);
+  background-color: #C60039;
   height: 50px;
   padding: 1em 0;
   width: 100%;
@@ -291,7 +291,8 @@ li a {
   padding: 10px 8px;
   transition: .5s ease; }
   li a:hover {
-    color: #5106ba; }
+    font-weight: bolder;
+    transition: .2s ease; }
   li a:active {
     color: #5106ba; }
 
@@ -307,10 +308,11 @@ li a.special-link {
   color: #FFFFFF;
   transition: .5s ease; }
   li a.special-link:hover {
-    background-color: #5106ba;
-    border: 2px solid #FFFFFF;
+    background-color: #C60039;
+    border: 3px solid #FFFFFF;
     color: #FFFFFF;
-    transition: .5s ease; }
+    font-weight: bolder;
+    transition: .2s ease; }
   li a.special-link:active {
     background-color: #5106ba;
     color: #FFFFFF;
@@ -321,7 +323,9 @@ li a.special-link {
 
 .hero {
   padding-top: calc(50px + 1em);
-  background: linear-gradient(to right, #0844ff, #f5c5cd);
+  background-image: url(assets/us.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #FFFFFF; }
 
 .hero-content {
@@ -341,27 +345,32 @@ li a.special-link {
     padding-top: 2em; }
 
 .about {
-  width: 60%;
+  width: 90%;
   margin: 0 auto;
   margin-top: -38px;
   text-align: center;
   padding-bottom: 4em; }
   .about .about--website, .about .about--communication {
-    border-radius: 6px;
-    padding: 45px 0;
-    background-color: #e2cfcf; }
+    padding: 45px 0 85px 0;
+    background-color: #4F769F;
+    color: white; }
+    .about .about--website a, .about .about--communication a {
+      color: white;
+      font-weight: bold; }
   .about .about--website {
-    margin-right: 5px; }
+    margin-right: 10px;
+    box-shadow: 6px 6px 20px 0px #bebbbb; }
   .about .about--communication {
-    margin-left: 5px; }
+    margin-left: 10px;
+    box-shadow: 6px 6px 20px 0px #bebbbb; }
   .about .about--communication__header {
-    margin-top: 10px;
-    color: #0844ff; }
+    margin-top: 5px;
+    color: white; }
     .about .about--communication__header::before {
       content: '✎ '; }
   .about .about--website__header {
-    margin-top: 10px;
-    color: #0844ff; }
+    margin-top: 5px;
+    color: white; }
     .about .about--website__header::before {
       content: '❴ ❵ '; }
 
@@ -373,7 +382,9 @@ li a.special-link {
   margin: 0 auto; }
 
 .my-skills {
-  background: linear-gradient(to right, #0844ff, #f5c5cd);
+  background-image: url(assets/us.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-bottom: 6em; }
   .my-skills p {
     color: #FFFFFF; }
@@ -457,10 +468,9 @@ li a.special-link {
     display: block;
     width: 12em;
     height: 12em;
-    border-radius: 3px;
     box-sizing: border-box;
     margin: 20px;
-    box-shadow: 6px 6px 20px 0px #929090; }
+    box-shadow: 6px 6px 20px 0px #bebbbb; }
   .portfolio-grid .overlay {
     position: absolute;
     top: 0;
@@ -490,7 +500,7 @@ li a.special-link {
     text-align: center; }
 
 footer {
-  background: linear-gradient(to right, #0844ff, #f5c5cd); }
+  background: #C60039; }
 
 .socials {
   width: 60%;
@@ -502,40 +512,28 @@ footer {
 
 .social-container {
   color: #000000;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 8px;
   margin: 20px;
-  padding-top: 10px;
+  padding: 5px;
   text-align: center;
   text-decoration: none; }
+  .social-container:hover {
+    background-color: #5106ba;
+    transition: .8s ease; }
+  .social-container:active {
+    background-color: #5106ba; }
   .social-container a {
     text-decoration: none;
     color: #FFFFFF; }
   .social-container i {
     width: 2em;
     height: 2em;
-    margin: 0 auto;
+    margin: 8px auto 0 auto;
     display: inline-block; }
   .social-container h3 {
-    margin-top: 0.5em; }
-
-.social-wrap:hover > .icon--twitter {
-  background-image: url("assets/twitter-hover.svg");
-  transition: .5s ease; }
-
-.social-wrap:hover > .icon--github {
-  background-image: url("assets/github-hover.svg");
-  transition: .5s ease; }
-
-.social-wrap:hover > .icon--linkedin {
-  background-image: url("assets/linkedin-hover.svg");
-  transition: .5s ease; }
-
-.social-wrap:hover > .icon--email {
-  background-image: url("assets/at-solid-hover.svg");
-  transition: .5s ease; }
-
-.social-wrap:hover > h3 {
-  color: #5106ba;
-  transition: .5s ease; }
+    margin: 0.5em; }
 
 .copy {
   background-color: #000000;
@@ -558,8 +556,6 @@ footer {
   .skills-wrapper {
     width: 80%;
     margin: 0 auto; }
-  .hero {
-    background-color: red; }
   .about {
     width: 80%;
     margin: 0 auto; }

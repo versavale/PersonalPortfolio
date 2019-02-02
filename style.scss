@@ -6,7 +6,7 @@
 #navbar {
   position: fixed;
   font-weight: $font-big;
-  background: $background-gradient;
+  background-color: $color-blue;
   height: 50px;
   padding: 1em 0;
   width: 100%;
@@ -44,9 +44,10 @@ li a {
   color: $color-white;
   padding: 10px 8px;
   transition: .5s ease;
-    
+
   &:hover {
-   color: $color-darkblue;
+   font-weight: bolder;
+   transition: .2s ease;
   }
 
   &:active {
@@ -68,10 +69,11 @@ li a.special-link {
   transition: .5s ease;
 
   &:hover {
-    background-color: $color-darkblue;
-    border: 2px solid $color-white;
+    background-color: $color-blue;
+    border: 3px solid $color-white;
     color: $color-white;
-    transition: .5s ease;
+    font-weight: bolder;
+    transition: .2s ease;
   }
 
   &:active {
@@ -89,7 +91,10 @@ li a.special-link {
 
 .hero {
   padding-top: calc(50px + 1em);
-  background: $background-gradient;
+//  background: $background-gradient;
+  background-image: url(assets/us.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: $color-white;
 }
 
@@ -101,7 +106,7 @@ li a.special-link {
    h1 {
     margin-top: 0;
 
-  } 
+  }
 
   .loc {
     height: 1.7em;
@@ -122,28 +127,36 @@ li a.special-link {
 
 //ABOUT
 .about {
-  width: 60%;
+  width: 90%;
   margin: 0 auto;
   margin-top: -38px;
   text-align: center;
   padding-bottom: 4em;
-  
+
   .about--website, .about--communication {
-    border-radius: 6px;
-    padding: 45px 0;
-    background-color: rgb(226, 207, 207);
+    padding: 45px 0 85px 0;
+    background-color: $color-eggplant;
+    color: white;
+
+    & a {
+      color: white;
+      font-weight: bold;
+    }
   }
 
   .about--website {
-    margin-right: 5px;
+    margin-right: 10px;
+    box-shadow: $box-shadow;
   }
 
   .about--communication {
-    margin-left: 5px;
+    margin-left: 10px;
+    box-shadow: $box-shadow;
   }
+
   .about--communication__header{
-    margin-top: 10px;
-    color: $color-blue;
+    margin-top: 5px;
+    color: white;
 
     &::before {
       content: '✎ '
@@ -151,8 +164,8 @@ li a.special-link {
   }
 
   .about--website__header {
-    margin-top: 10px;
-    color: $color-blue;
+    margin-top: 5px;
+    color: white;
 
     &::before {
       content: '❴ ❵ '
@@ -169,17 +182,20 @@ li a.special-link {
   margin: 0 auto;
 }
 
-//skills 
+//skills
 
 .my-skills {
-  background: $background-gradient;
+  //  background: $background-gradient;
+  background-image: url(assets/us.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-bottom: 6em;
 
   p {
     color: $color-white;
   }
 
-  
+
   p.special {
     font-weight: bold;
   }
@@ -188,11 +204,11 @@ li a.special-link {
     width: 60%;
     margin: 3em auto 0 auto;
   }
- 
+
 .skill-wrap {
   margin-top: 10px;
   margin-bottom: 10px;
-} 
+}
 
 .skill-name {
   height: 40px;
@@ -264,7 +280,7 @@ li a.special-link {
   color:black;
   overflow: hidden;
  }
- 
+
  .skill-bar-percent--bold {
    font-weight: bold;
  }
@@ -295,7 +311,6 @@ li a.special-link {
     display: block;
     width: 12em;
     height: 12em;
-    border-radius: 3px;
     box-sizing: border-box;
     margin: 20px;
     box-shadow: $box-shadow;
@@ -321,7 +336,7 @@ li a.special-link {
     opacity: 1;
     transition: .5s ease;
   }
-  
+
   .text {
     color: white;
     font-size: 20px;
@@ -337,7 +352,7 @@ li a.special-link {
 
 //CONTACT
 footer {
-  background: $background-gradient;
+  background: $color-blue;
 }
 
 .socials {
@@ -351,10 +366,22 @@ footer {
 
 .social-container {
   color: $color-black;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 8px;
   margin: 20px;
-  padding-top: 10px;
+  padding: 5px;
   text-align: center;
   text-decoration: none;
+
+  &:hover {
+    background-color: $color-darkblue;
+    transition: .8s ease;
+  }
+
+  &:active {
+    background-color: $color-darkblue;
+  }
 
   a {
     text-decoration: none;
@@ -364,39 +391,15 @@ footer {
   i {
     width: 2em;
     height: 2em;
-    margin: 0 auto;
+    margin: 8px auto 0 auto;
     display: inline-block;
     }
 
   h3 {
-    margin-top: 0.5em;
+    margin: 0.5em;
   }
 }
 
-.social-wrap:hover>.icon--twitter{
-  background-image: url('assets/twitter-hover.svg');
-  transition: .5s ease;
-}
-
-.social-wrap:hover>.icon--github{
-  background-image: url('assets/github-hover.svg');
-  transition: .5s ease;
-}
-
-.social-wrap:hover>.icon--linkedin{
-  background-image: url('assets/linkedin-hover.svg');
-  transition: .5s ease;
-}
-
-.social-wrap:hover>.icon--email{
-  background-image: url('assets/at-solid-hover.svg');
-  transition: .5s ease;
-}
-
-.social-wrap:hover>h3 {
-  color: $color-darkblue;
-  transition: .5s ease;
-}
 
 .copy {
   background-color: $color-black;
@@ -429,10 +432,6 @@ footer {
   .skills-wrapper {
     width: 80%;
     margin: 0 auto;
-  }
-
-  .hero {
-    background-color: red;
   }
 
   .about {
@@ -472,7 +471,7 @@ footer {
   h2 {
     font-size: $font-small;
   }
-  
+
   h3 {
     font-size: $font-smaller;
   }
@@ -521,7 +520,7 @@ footer {
     .layout--two-columns {
       display: block;
     }
-    
+
 
     .about--communication {
       margin-top: 20px;
@@ -581,7 +580,7 @@ footer {
       display: inline-block;
     }
   }
-  
+
   .socials {
     width: 80%;
     margin: 0 auto;
