@@ -359,10 +359,10 @@ li a.special-link {
       font-weight: bold; }
   .about .about--website {
     margin-right: 10px;
-    box-shadow: 6px 6px 20px 0px #bebbbb; }
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
   .about .about--communication {
     margin-left: 10px;
-    box-shadow: 6px 6px 20px 0px #bebbbb; }
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
   .about .about--communication__header {
     margin-top: 5px;
     color: white; }
@@ -470,7 +470,7 @@ li a.special-link {
     height: 12em;
     box-sizing: border-box;
     margin: 20px;
-    box-shadow: 6px 6px 20px 0px #bebbbb; }
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
   .portfolio-grid .overlay {
     position: absolute;
     top: 0;
