@@ -42,9 +42,9 @@ a {
 
 .anim {
   animation: pulsate 1.5s;
-  animation-iteration-count: infinite; 
+  animation-iteration-count: infinite;
   -webkit-animation: pulsate 1.5s;
-  -webkit-animation-iteration-count: infinite; 
+  -webkit-animation-iteration-count: infinite;
   opacity: 0.5;
 }
 
@@ -57,7 +57,7 @@ a {
 }
 
 .header-color {
-  color: $color-blue;
+  color: $color-darkblue;
 }
 
 
@@ -95,7 +95,7 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
-} 
+}
 
 .layout--five-columns {
   display: -ms-grid;
@@ -267,7 +267,7 @@ a {
 }
 
 button {
-  background-color: $color-blue;
+  background-color: $color-darkblue;
   text-decoration: none;
   color: $color-white;
   padding: 10px 10px;

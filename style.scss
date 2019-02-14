@@ -99,12 +99,12 @@ li a.special-link {
 //HERO
 
 .hero {
-  padding-top: calc(50px + 1em);
   background-attachment: fixed;
   background-image: url(assets/us.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: $color-white;
+  padding-top: calc(50px + 1em);
 }
 
 .hero-content {
@@ -528,8 +528,13 @@ footer {
     }
 
 
+    .about--website {
+      margin-right: 0;
+    }
+
     .about--communication {
       margin-top: 20px;
+      margin-left: 0;
     }
   }
     .portfolio-grid {
