@@ -256,13 +256,20 @@ button {
   background-repeat: no-repeat; }
 
 #navbar {
-  position: fixed;
+  color: #FFFFFF;
   font-weight: 54px;
-  background-color: #4F769F;
   height: 40px;
   padding: .5em 0;
+  position: fixed;
   width: 100%;
   z-index: 2; }
+
+.nav--trans {
+  background-color: transparent;
+  transition: all .5s ease-in-out; }
+
+.nav--color {
+  background-color: #4F769F; }
 
 .nav-content {
   width: 60%;
@@ -323,6 +330,7 @@ li a.special-link {
 
 .hero {
   padding-top: calc(50px + 1em);
+  background-attachment: fixed;
   background-image: url(assets/us.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -382,6 +390,7 @@ li a.special-link {
   margin: 0 auto; }
 
 .my-skills {
+  background-attachment: fixed;
   background-image: url(assets/us.jpg);
   background-repeat: no-repeat;
   background-size: cover;

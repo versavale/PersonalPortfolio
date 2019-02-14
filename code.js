@@ -55,4 +55,14 @@ $(window).scroll(function () {
     }
 });
 
+window.onscroll = function() {
+    var navbar = document.getElementById('navbar');
+    if (window.scrollY >= 50) {
+      navbar.classList.add("nav--color");
+      navbar.classList.remove("nav--trans");
+    } else {
+      navbar.classList.remove("nav--color");
+      navbar.classList.add("nav--trans");
+    }
+  }
 });

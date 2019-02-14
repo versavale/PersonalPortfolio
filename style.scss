@@ -4,13 +4,22 @@
 //NAV
 
 #navbar {
-  position: fixed;
+  color: $color-white;
   font-weight: $font-big;
-  background-color: $color-eggplant;
   height: 40px;
   padding: .5em 0;
+  position: fixed;
   width: 100%;
   z-index: 2;
+}
+
+.nav--trans {
+  background-color: transparent;
+  transition: all .5s ease-in-out;
+}
+
+.nav--color {
+  background-color: $color-eggplant;
 }
 
 .nav-content {
@@ -91,7 +100,7 @@ li a.special-link {
 
 .hero {
   padding-top: calc(50px + 1em);
-//  background: $background-gradient;
+  background-attachment: fixed;
   background-image: url(assets/us.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -184,7 +193,7 @@ li a.special-link {
 //skills
 
 .my-skills {
-  //  background: $background-gradient;
+  background-attachment: fixed;
   background-image: url(assets/us.jpg);
   background-repeat: no-repeat;
   background-size: cover;
