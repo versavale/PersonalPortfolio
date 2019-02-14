@@ -58,11 +58,20 @@ $(window).scroll(function () {
 window.onscroll = function() {
     var navbar = document.getElementById('navbar');
     if (window.scrollY >= 50) {
+      console.log("pop");
+      document.getElementById("myBtn").style.display = "block";
       navbar.classList.add("nav--color");
       navbar.classList.remove("nav--trans");
     } else {
       navbar.classList.remove("nav--color");
       navbar.classList.add("nav--trans");
+      document.getElementById("myBtn").style.display = "none";
+      console.log("pooop");
     }
   }
 });
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
