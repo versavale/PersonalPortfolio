@@ -121,6 +121,7 @@ li a.special-link {
 
 .hero {
   background-attachment: fixed;
+  background-color: $color-black;
   background-image: url(assets/us.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -504,7 +505,13 @@ footer {
   }
 
   .hero {
-    background-color: yellow;
+    background-attachment: fixed;
+    background-color: $color-black;
+    background-image: url(assets/us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $color-white;
+    padding-top: calc(50px + 1em);
 
     .content-left {
       padding-left: 20px;
