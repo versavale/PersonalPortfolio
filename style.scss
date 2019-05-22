@@ -176,12 +176,10 @@ li a.special-link {
 
   .about--website {
     margin-right: 10px;
-    box-shadow: $box-shadow;
   }
 
   .about--communication {
     margin-left: 10px;
-    box-shadow: $box-shadow;
   }
 
   .about--communication__header{
@@ -343,7 +341,6 @@ li a.special-link {
     height: 12em;
     box-sizing: border-box;
     margin: 20px;
-    box-shadow: $box-shadow;
   }
 
   .overlay {
@@ -572,8 +569,8 @@ footer {
       }
 
       img, .overlay {
-        width: 14em;
         height: 14em;
+        width: 14em;
       }
   }
 
@@ -588,7 +585,6 @@ footer {
     width: 60%;
     }
   }
-
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   nav {

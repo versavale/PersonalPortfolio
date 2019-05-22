@@ -269,7 +269,7 @@ button {
   transition: all .5s ease-in-out; }
 
 .nav--color {
-  background-color: #4F769F; }
+  background-color: #4e86c1; }
 
 .nav-content {
   width: 60%;
@@ -336,7 +336,7 @@ li a.special-link {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #4F769F;
+  background-color: #4e86c1;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -348,6 +348,7 @@ li a.special-link {
 
 .hero {
   background-attachment: fixed;
+  background-color: #000000;
   background-image: url(assets/us.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -378,17 +379,15 @@ li a.special-link {
   padding-bottom: 4em; }
   .about .about--website, .about .about--communication {
     padding: 45px 0 85px 0;
-    background-color: #4F769F;
+    background-color: #4e86c1;
     color: white; }
     .about .about--website a, .about .about--communication a {
       color: white;
       font-weight: bold; }
   .about .about--website {
-    margin-right: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+    margin-right: 10px; }
   .about .about--communication {
-    margin-left: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+    margin-left: 10px; }
   .about .about--communication__header {
     margin-top: 5px;
     color: white; }
@@ -496,8 +495,7 @@ li a.special-link {
     width: 12em;
     height: 12em;
     box-sizing: border-box;
-    margin: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+    margin: 20px; }
   .portfolio-grid .overlay {
     position: absolute;
     top: 0;
@@ -527,7 +525,7 @@ li a.special-link {
     text-align: center; }
 
 footer {
-  background: #4F769F; }
+  background: #4e86c1; }
 
 .socials {
   width: 60%;
@@ -606,7 +604,13 @@ footer {
   h3 {
     font-size: 16px; }
   .hero {
-    background-color: yellow; }
+    background-attachment: fixed;
+    background-color: #000000;
+    background-image: url(assets/us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    padding-top: calc(50px + 1em); }
     .hero .content-left {
       padding-left: 20px; }
   .nav-content {
@@ -640,14 +644,15 @@ footer {
     .portfolio-grid .container {
       margin: 0 auto; }
     .portfolio-grid img, .portfolio-grid .overlay {
-      width: 14em;
-      height: 14em; }
+      height: 14em;
+      width: 14em; }
   .overlay {
     display: none; }
   .socials {
     display: block;
-    width: 60%;
-    margin: 0 auto; } }
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 60%; } }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   nav ul {
