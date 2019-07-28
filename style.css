@@ -34,7 +34,8 @@ h1 {
   font-weight: 900; }
 
 h2 {
-  font-size: 36px; }
+  font-size: 36px;
+  font-weight: 100; }
 
 h3 {
   font-size: 16px; }
@@ -385,17 +386,12 @@ li a.special-link {
   .about .about--website {
     margin-right: 10px; }
   .about .about--communication {
+    color: white;
     margin-left: 10px; }
-  .about .about--communication__header {
-    margin-top: 5px;
-    color: white; }
-    .about .about--communication__header::before {
-      content: '✎ '; }
-  .about .about--website__header {
-    margin-top: 5px;
-    color: white; }
-    .about .about--website__header::before {
-      content: '❴ ❵ '; }
+  .about .about--communication__header::before {
+    content: '✎ '; }
+  .about .about--website__header::before {
+    content: '❴ ❵ '; }
 
 .button {
   padding-top: 3em; }
@@ -418,28 +414,20 @@ li a.special-link {
     width: 60%;
     margin: 3em auto 0 auto; }
   .my-skills .skill-wrap {
-    margin-top: 10px;
-    margin-bottom: 10px; }
+    margin: 20px 0; }
   .my-skills .skill-name {
     height: 40px;
+    background-color: transparent;
     line-height: 40px;
-    font-size: 14px;
+    font-size: 16px;
     color: white;
     clear: both;
     float: left;
     padding-left: 8px;
     border-bottom-left-radius: 8px;
     border-top-left-radius: 8px;
-    width: calc(40% - 10px);
+    width: calc(25% - 10px);
     overflow: hidden; }
-  .my-skills #skill_html, .my-skills #skill_js {
-    background-color: #088A85; }
-  .my-skills #skill_css, .my-skills #skill_react {
-    background-color: #5858FA; }
-  .my-skills #skill_git, .my-skills #skill_ruby {
-    background-color: #04B404; }
-  .my-skills #skill_mot {
-    background-color: #5106ba; }
   .my-skills .skillbar-wrapper {
     position: relative;
     display: inline-block;
@@ -453,14 +441,8 @@ li a.special-link {
     width: 0px;
     border-bottom-right-radius: 8px;
     border-top-right-radius: 8px; }
-  .my-skills #skillbar_html, .my-skills #skillbar_js {
-    background-color: #01DFD7; }
-  .my-skills #skillbar_css, .my-skills #skillbar_react {
-    background-color: #8181F7; }
-  .my-skills #skillbar_git, .my-skills #skillbar_ruby {
-    background-color: #01DF01; }
-  .my-skills #skillbar_mot {
-    background-color: #8550ce; }
+  .my-skills #skillbar_html, .my-skills #skillbar_js, .my-skills #skillbar_scrum, .my-skills #skillbar_css, .my-skills #skillbar_react, .my-skills #skillbar_git, .my-skills #skillbar_ruby, .my-skills #skillbar_mot {
+    background-color: #008b8b; }
   .my-skills .skill-bar-percent {
     position: absolute;
     right: 10px;

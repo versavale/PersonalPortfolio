@@ -178,22 +178,17 @@ li a.special-link {
   }
 
   .about--communication {
+    color: white;
     margin-left: 10px;
   }
 
   .about--communication__header{
-    margin-top: 5px;
-    color: white;
-
     &::before {
       content: '✎ '
     }
   }
 
   .about--website__header {
-    margin-top: 5px;
-    color: white;
-
     &::before {
       content: '❴ ❵ '
     }
@@ -232,40 +227,25 @@ li a.special-link {
     margin: 3em auto 0 auto;
   }
 
-.skill-wrap {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
+  .skill-wrap {
+    margin: 20px 0;
+  }
 
-.skill-name {
-  height: 40px;
-  line-height: 40px;
-  font-size: $font-mini;
-  color: white;
-  clear: both;
-  float: left;
-  padding-left: 8px;
-  border-bottom-left-radius: 8px;
-  border-top-left-radius: 8px;
-  width: calc(40% - 10px);
-  overflow: hidden;
-}
+  .skill-name {
+    height: 40px;
+    background-color: transparent;
+    line-height: 40px;
+    font-size: $font-smaller;
+    color: white;
+    clear: both;
+    float: left;
+    padding-left: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    width: calc(25% - 10px);
+    overflow: hidden;
+  }
 
- #skill_html,  #skill_js {
-  background-color:#088A85;
-}
-
- #skill_css, #skill_react {
-  background-color:#5858FA;
-}
-
- #skill_git, #skill_ruby {
-  background-color:#04B404;
-}
-
- #skill_mot {
-  background-color:#5106ba;
-}
 
  .skillbar-wrapper {
   position:relative;
@@ -276,28 +256,19 @@ li a.special-link {
   border-bottom-right-radius: 8px;
   border-top-right-radius: 8px;
  }
- .skillbar-bar {
+
+  .skillbar-bar {
   height: 40px;
   width: 0px;
   border-bottom-right-radius: 8px;
   border-top-right-radius: 8px;
- }
- #skillbar_html,  #skillbar_js {
-  background-color:#01DFD7;
- }
+  }
 
- #skillbar_css,  #skillbar_react {
-  background-color:#8181F7;
- }
- #skillbar_git, #skillbar_ruby {
-  background-color:#01DF01;
- }
+  #skillbar_html,  #skillbar_js, #skillbar_scrum,  #skillbar_css,  #skillbar_react, #skillbar_git, #skillbar_ruby, #skillbar_mot  {
+  background-color: $color-cyan;
+  }
 
- #skillbar_mot {
-  background-color:#8550ce;
- }
-
- .skill-bar-percent {
+  .skill-bar-percent {
   position:absolute;
   right:10px;
   top:0;
@@ -306,11 +277,11 @@ li a.special-link {
   line-height:35px;
   color:black;
   overflow: hidden;
- }
+  }
 
- .skill-bar-percent--bold {
-   font-weight: bold;
- }
+  .skill-bar-percent--bold {
+    font-weight: bold;
+  }
 
 }
 

@@ -45,12 +45,13 @@ $(window).scroll(function () {
     var y = $(window).scrollTop(),
         x = $('#skillbar_html').offset().top - 220;
     if (y > x) {
-        $("#skillbar_html").animate({width:'85%'},1500);
-        $("#skillbar_css").animate({width:'80%'},1500);
+        $("#skillbar_html").animate({width:'95%'},1500);
+        $("#skillbar_css").animate({width:'95%'},1500);
         $("#skillbar_git").animate({width:'75%'},1500);
-        $("#skillbar_js").animate({width:'65%'},1500);
+        $("#skillbar_js").animate({width:'75%'},1500);
         $("#skillbar_react").animate({width:'0%'},1500);
         $("#skillbar_ruby").animate({width:'0%'},1500);
+        $("#skillbar_scrum").animate({width:'100%'},1500);
         $("#skillbar_mot").animate({width:'100%'},1500);
     }
 });
