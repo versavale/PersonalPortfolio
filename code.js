@@ -49,8 +49,8 @@ $(window).scroll(function () {
         $("#skillbar_css").animate({width:'95%'},1500);
         $("#skillbar_git").animate({width:'75%'},1500);
         $("#skillbar_js").animate({width:'75%'},1500);
-        $("#skillbar_react").animate({width:'0%'},1500);
-        $("#skillbar_ruby").animate({width:'0%'},1500);
+        $("#skillbar_react").animate({width:'50%'},1500);
+        $("#skillbar_ruby").animate({width:'20%'},1500);
         $("#skillbar_scrum").animate({width:'100%'},1500);
         $("#skillbar_mot").animate({width:'100%'},1500);
     }
