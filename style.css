@@ -467,6 +467,10 @@ li a.special-link:active {
   color: white;
   font-weight: bold;
 }
+.about .about--website a:hover, .about .about--communication a:hover {
+  color: #ba0144;
+  transition: color 0.35sec ease-out;
+}
 .about .about--website {
   margin-right: 10px;
 }
@@ -488,6 +492,7 @@ li a.special-link:active {
 .about--website__text, .about--communication__text {
   width: 70%;
   margin: 0 auto;
+  text-align: left;
 }
 
 .my-skills {
