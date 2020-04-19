@@ -393,6 +393,7 @@ footer {
 
   h3 {
     margin: 0.5em;
+    color: $color-white;
   }
 }
 
@@ -462,6 +463,10 @@ footer {
 
 
 @media only screen and (max-width: 549px) {
+  html, body {
+    width: 100%;
+    margin: 0 auto;
+  }
 
   h1 {
     font-size: $font-reg;
