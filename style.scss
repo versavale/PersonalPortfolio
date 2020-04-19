@@ -171,6 +171,11 @@ li a.special-link {
       color: white;
       font-weight: bold;
     }
+
+    & a:hover {
+      color: $color-purple;
+      transition: color 0.25s ease-out;
+    }
   }
 
   .about--website {
@@ -199,9 +204,14 @@ li a.special-link {
   padding-top: 3em;
 }
 
-.about--website__text, .about--communication__text {
+.about--website__text, .about--communication__text, .about--communication__text--bold {
   width: 70%;
   margin: 0 auto;
+  text-align: left;
+}
+
+.about--communication__text--bold {
+  font-weight: bold;
 }
 
 //skills
