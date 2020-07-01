@@ -225,9 +225,8 @@ li a.special-link {
   padding-bottom: 6em;
 
   p {
-    color: $color-darkblue;
+    color: $color-white;
   }
-
 
   p.special {
     font-weight: bold;
@@ -249,7 +248,7 @@ li a.special-link {
     background-color: transparent;
     line-height: 40px;
     font-size: $font-smaller;
-    color: white;
+    color: $color-white;
     clear: both;
     float: left;
     padding-left: 8px;
